@@ -1,0 +1,1476 @@
+name: Features
+resources:
+  ChooseAdv:
+    Label.AwesomeAvatar:
+      english_string: Make your avatar look as awesome as you do.
+      description: |-
+        Created by jdalmendray@roblox.com
+        Modified by czhang@roblox.com
+        Created by jdalmendray@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: اجعل صورة أفاتارك تبدو رائعة مثلك.
+        de_de: Style deinen Avatar so fantastisch, wie du es bist.
+        es_es: Transforma tu avatar para que se vea tan genial como tú.
+        fr_fr: Créé un avatar à ton image.
+        id_id: Buat avatar kamu tampil sekeren dirimu.
+        it_it: Rendi il tuo avatar meraviglioso, proprio come te.
+        ja_jp: 本人と同じくらいアバターを素敵にする。
+        ko_kr: 아바타를 진짜 내 모습처럼 멋지게 꾸며 보세요.
+        pl_pl: Niech twój awatar wygląda równie odlotowo co ty.
+        pt_br: Faça seu avatar parece tão legal quanto você.
+        ru_ru: Сделать аватар таким же классным, как и ты.
+        th_th: ทำให้อวาตาร์ของคุณดูเจ๋งเหมือนคุณ
+        tr_tr: Avatarının senin kadar harika görünmesini sağla.
+        vi_vn: Hãy tạo hình đại diện trông thật ấn tượng như bạn.
+        zh_cjv: 让你的虚拟形象和你一样酷炫。
+        zh_cn: 让你的虚拟形象和你一样酷炫。
+        zh_tw: 將您的虛擬人偶打扮得跟您一樣酷炫。
+    Label.CustomizeAvatar:
+      english_string: Customize my avatar.
+      description: |-
+        Created by jdalmendray@roblox.com
+        Modified by czhang@roblox.com
+        Created by jdalmendray@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: تخصيص أفاتاري.
+        de_de: Avatar anpassen.
+        es_es: Personalizar mi avatar
+        fr_fr: Personnalise ton avatar.
+        id_id: Kustomisasi avatar saya.
+        it_it: Personalizza il mio avatar.
+        ja_jp: アバターをカスタマイズ。
+        ko_kr: 아바타 꾸미기.
+        pl_pl: Dostosuj mojego awatara.
+        pt_br: Personalizar meu avatar.
+        ru_ru: Изменить мой аватар.
+        th_th: ปรับแต่งอวาตาร์ของฉัน
+        tr_tr: Avatarımı özelleştir.
+        vi_vn: Tùy chỉnh hình đại diện của tôi.
+        zh_cjv: 自定义我的虚拟形象。
+        zh_cn: 自定义我的虚拟形象。
+        zh_tw: 自訂我的虛擬人偶。
+    Label.FindNearbyUsers:
+      english_string: Find users nearby who are currently exploring Roblox.
+      description: |-
+        Created by jdalmendray@roblox.com
+        Modified by czhang@roblox.com
+        Created by jdalmendray@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: البحث عن الأشخاص الذين يستخدمون Roblox بالقرب مني.
+        de_de: Finde Benutzer:innen in deiner Nähe, die zurzeit Roblox erkunden.
+        es_es: Encuentra a usuarios cerca de ti que están explorando Roblox.
+        fr_fr: Trouve des utilisateurs qui explorent Roblox.
+        id_id: Temukan pengguna di sekitar yang sedang menggunakan Roblox.
+        it_it: Trova utenti nelle vicinanze che stanno su Roblox.
+        ja_jp: 現在、近くでRobloxを探索しているユーザーを見つける。
+        ko_kr: 근처에서 접속 중인 다른 사용자를 찾아보세요.
+        pl_pl: Znajdź w pobliżu użytkowników, którzy obecnie eksplorują platformę
+          Roblox.
+        pt_br: Encontre usuários nas proximidades que estão visitando a Roblox.
+        ru_ru: Найти пользователей Roblox, расположенных неподалеку.
+        th_th: ค้นหาผู้ใช้ที่อยู่ในบริเวณใกล้เคียงที่กำลังใช้ Roblox อยู่
+        tr_tr: Şu anda Roblox oynayan yakındaki kullanıcıları bul.
+        vi_vn: Tìm người dùng gần bạn đang khám phá Roblox.
+        zh_cjv: 寻找附近在正在使用罗布乐思的用户。
+        zh_cn: 寻找附近在正在使用 Roblox 的用户。
+        zh_tw: 尋找附近正在使用 Roblox 的使用者。
+    Label.ImNearSomeone:
+      english_string: I'm near someone exploring Roblox.
+      description: |-
+        Created by jdalmendray@roblox.com
+        Modified by czhang@roblox.com
+        Created by jdalmendray@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: أنا بالقرب من شخص يستخدم Roblox.
+        de_de: Ich befinde mich in der Nähe von jemandem, der Roblox erkundet.
+        es_es: Estoy cerca de alguien que está explorando Roblox.
+        fr_fr: Je suis près de quelqu'un qui joue à Roblox.
+        id_id: Di sekitar saya ada seseorang yang sedang menggunakan Roblox.
+        it_it: Nei paraggi c'è qualcuno che sta esplorando su Roblox.
+        ja_jp: Robloxを探索している人の近くにいます。
+        ko_kr: 근처에 접속 중인 다른 Roblox 사용자가 있어요.
+        pl_pl: Jestem blisko kogoś, kto eksploruje platformę Roblox.
+        pt_br: Estou perto de alguém que está explorando a Roblox.
+        ru_ru: Я рядом с пользователями Roblox.
+        th_th: ฉันอยู่ใกล้กับคนที่กำลังใช้ Roblox อยู่
+        tr_tr: Roblox'u keşfeden birinin yakınındayım.
+        vi_vn: Tôi ở gần người đang khám phá Roblox.
+        zh_cjv: 我在罗布乐思用户附近。
+        zh_cn: 我在 Roblox 用户附近。
+        zh_tw: 我在 Roblox 使用者附近。
+    Label.KnowSomeoneOnRoblox:
+      english_string: I know someone on Roblox.
+      description: |-
+        Created by jdalmendray@roblox.com
+        Modified by czhang@roblox.com
+        Created by jdalmendray@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: أنا أعرف شخصًا يستخدم Roblox.
+        de_de: Ich kenne jemanden bei Roblox.
+        es_es: Conozco a alguien en Roblox.
+        fr_fr: Je connais quelqu'un sur Roblox.
+        id_id: Saya kenal dengan seseorang di Roblox.
+        it_it: Conosco qualcuno su Roblox.
+        ja_jp: Robloxに知り合いがいます。
+        ko_kr: 저는 Roblox에 아는 사람이 있어요.
+        pl_pl: Znam kogoś, kto gra na platformie Roblox.
+        pt_br: Conheço alguém na Roblox.
+        ru_ru: Я знаю пользователей Roblox.
+        th_th: ฉันมีคนรู้จักอยู่บน Roblox
+        tr_tr: Roblox'ta birini tanıyorum.
+        vi_vn: Tôi biết vài người trên Roblox.
+        zh_cjv: 我认识某个罗布乐思的玩家。
+        zh_cn: 我认识某个 Roblox 的玩家。
+        zh_tw: 我認識 Roblox 玩家。
+    Label.LookThroughYourContacts:
+      english_string: Look through your contacts to find friends who explore Roblox.
+      description: |-
+        Created by jdalmendray@roblox.com
+        Modified by czhang@roblox.com
+        Created by jdalmendray@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: انظر من خلال جهات الاتصال الخاصة بك للعثور على أصدقاء يستكشفون روبلوكس.
+        de_de: Durchsuche deine Kontakte, um Freund:innen zu finden, die Roblox erkunden.
+        es_es: Busca entre tus contactos para encontrar amigos que exploran Roblox.
+        fr_fr: Regarde dans tes contacts pour trouver des amis qui explorent Roblox.
+        id_id: Cari di antara kontak kamu untuk menemukan teman yang menggunakan Roblox.
+        it_it: Dai un'occhiata ai tuoi contatti per trovare amici che sono su Roblox.
+        ja_jp: 連絡先リストの中でRobloxを探索している友達を見つける。
+        ko_kr: 내 연락처 목록에서 다른 Roblox 사용자들을 찾아보세요.
+        pl_pl: Przejrzyj swoje kontakty i znajdź znajomych, którzy eksplorują platformę
+          Roblox.
+        pt_br: Procure em seus contatos suas amizades que visitam a Roblox.
+        ru_ru: Просмотреть контакты для поиска пользователей Roblox.
+        th_th: ดูในรายชื่อผู้ติดต่อของคุณเพื่อค้นหาเพื่อนที่ใช้ Roblox
+        tr_tr: Roblox'u keşfeden arkadaşlarını bulmak için rehberine göz at.
+        vi_vn: Xem qua danh bạ để tìm bạn bè đang khám phá Roblox.
+        zh_cjv: 看看你的联系人里有没有也在使用罗布乐思的好友。
+        zh_cn: 看看你的联系人里有没有也在使用 Roblox 的好友。
+        zh_tw: 看看您的聯絡人裡有沒有也在使用 Roblox 的好友。
+    Label.RequiresContacts:
+      english_string: (requires contacts access)
+      description: |-
+        Created by jdalmendray@roblox.com
+        Modified by jdalmendray@roblox.com
+        Created by jdalmendray@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: (يتطلب الوصول إلى جهات الاتصال)
+        de_de: (Zugang zu Kontakten erforderlich)
+        es_es: (requiere acceso a contactos)
+        fr_fr: (nécessite l'accès aux contacts)
+        id_id: (memerlukan akses kontak)
+        it_it: (richiede l'accesso ai contatti)
+        ja_jp: (連絡先へのアクセスが必要です)
+        ko_kr: (연락처 접근 권한이 필요함)
+        pl_pl: (wymagany dostęp do kontaktów)
+        pt_br: (requer acesso de contatos)
+        ru_ru: (требуется доступ к контактам)
+        th_th: (จำเป็นต้องเข้าถึงรายชื่อผู้ติดต่อ)
+        tr_tr: (rehber erişimi gerektirir)
+        vi_vn: (cần quyền truy cập danh bạ)
+        zh_cjv: （需要访问联系人）
+        zh_cn: （需要访问联系人）
+        zh_tw: （需要存取聯絡人）
+    Label.RequiresMicrophone:
+      english_string: (requires microphone access)
+      description: |-
+        Created by jdalmendray@roblox.com
+        Modified by czhang@roblox.com
+        Created by jdalmendray@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: (يتطلب الوصول إلى الميكروفون)
+        de_de: (Mikrofon erforderlich)
+        es_es: (requiere acceso al micrófono)
+        fr_fr: (nécessite l'accès au microphone)
+        id_id: (memerlukan akses mikrofon)
+        it_it: (richiede l'accesso al microfono)
+        ja_jp: (マイクへのアクセスが必要です)
+        ko_kr: (마이크 접근 권한이 필요함)
+        pl_pl: (wymagany dostęp do mikrofonu)
+        pt_br: (requer acesso ao microfone)
+        ru_ru: (требуется доступ к микрофону)
+        th_th: (จำเป็นต้องเข้าถึงไมโครโฟน)
+        tr_tr: (mikrofon erişimi gerektirir)
+        vi_vn: (cần quyền truy cập micrô)
+        zh_cjv: （需要访问麦克风）
+        zh_cn: （需要访问麦克风）
+        zh_tw: （需要存取麥克風）
+    Label.ShowMeTheGames:
+      english_string: Just show me the experiences.
+      description: |-
+        Created by jdalmendray@roblox.com
+        Modified by czhang@roblox.com
+        Created by jdalmendray@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: فقط أرني التجارب.
+        de_de: Zeig mir einfach die Erlebnisse.
+        es_es: Muéstrame las experiencias.
+        fr_fr: Montre-moi juste les expériences.
+        id_id: Tampilkan saja pengalaman virtualnya.
+        it_it: Mostrami solo le esperienze.
+        ja_jp: そのバーチャル空間を表示。
+        ko_kr: 지금 체험을 보여 주세요.
+        pl_pl: Po prostu pokaż mi projekty.
+        pt_br: Mostre-me as experiências.
+        ru_ru: Покажите мне плейсы.
+        th_th: แค่แสดงประสบการณ์ก็พอ
+        tr_tr: Yalnızca deneyimleri göster.
+        vi_vn: Hiển thị các trải nghiệm cho tôi.
+        zh_cjv: 让我看看作品就好。
+        zh_cn: 让我看看作品就好。
+        zh_tw: 讓我看看體驗就好。
+    Label.WhatsNext:
+      english_string: What's next?
+      description: |-
+        Created by jdalmendray@roblox.com
+        Modified by czhang@roblox.com
+        Created by jdalmendray@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: ما التالي؟
+        de_de: Was kommt als nächstes?
+        es_es: ¿Qué sigue?
+        fr_fr: Et après ?
+        id_id: Apa selanjutnya?
+        it_it: Che novità ci aspettano?
+        ja_jp: 次は何？
+        ko_kr: 다음은 무엇?
+        pl_pl: Co dalej?
+        pt_br: E agora?
+        ru_ru: Что дальше?
+        th_th: มีอะไรต่อจากนี้?
+        tr_tr: Sırada ne var?
+        vi_vn: Làm gì tiếp?
+        zh_cjv: 下一步是什么？
+        zh_cn: 下一步是什么？
+        zh_tw: 下一步呢？
+  FriendFinder:
+    Action.Add:
+      english_string: Add
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: إضافة
+        de_de: Hinzufügen
+        es_es: Añadir
+        fr_fr: Ajouter
+        id_id: Tambahkan
+        it_it: Aggiungi
+        ja_jp: 追加
+        ko_kr: 추가
+        pl_pl: Dodaj
+        pt_br: Adicionar
+        ru_ru: Добавить
+        th_th: เพิ่ม
+        tr_tr: Ekle
+        vi_vn: Thêm
+        zh_cjv: 添加
+        zh_cn: 添加
+        zh_tw: 新增
+    Action.Add.Contacts:
+      english_string: Add Contacts
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: إضافة جهات اتصال
+        de_de: Kontakte hinzufügen
+        es_es: Añadir contactos
+        fr_fr: Ajouter des contacts
+        id_id: Tambahkan Kontak
+        it_it: Aggiungi contatti
+        ja_jp: 連絡先リストを追加
+        ko_kr: 연락처 추가
+        pl_pl: Dodaj kontakty
+        pt_br: Adicionar contatos
+        ru_ru: Добавить контакты
+        th_th: เพิ่มผู้ติดต่อ
+        tr_tr: Kişileri Ekle
+        vi_vn: Thêm Danh Bạ
+        zh_cjv: 添加联系人
+        zh_cn: 添加联系人
+        zh_tw: 新增聯絡人
+    Action.AppSettings:
+      english_string: App Settings
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: إعدادات التطبيق
+        de_de: App-Einstellungen
+        es_es: Config. de la aplicación
+        fr_fr: Paramètres de l'application
+        id_id: Pengaturan Aplikasi
+        it_it: Impostazioni app
+        ja_jp: アプリ設定
+        ko_kr: 앱 설정
+        pl_pl: Ustawienia aplikacji
+        pt_br: Config. do aplicativo
+        ru_ru: Настройки приложения
+        th_th: การตั้งค่าแอป
+        tr_tr: Uygulama Ayarları
+        vi_vn: Cài Đặt Ứng Dụng
+        zh_cjv: App 设置
+        zh_cn: App 设置
+        zh_tw: App 設定
+    Action.Continue:
+      english_string: Continue
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: متابعة
+        de_de: Weiter
+        es_es: Continuar
+        fr_fr: Continuer
+        id_id: Lanjutkan
+        it_it: Continua
+        ja_jp: 続ける
+        ko_kr: 계속
+        pl_pl: Kontynuuj
+        pt_br: Continuar
+        ru_ru: Продолжить
+        th_th: ดำเนินการต่อ
+        tr_tr: Devam Et
+        vi_vn: Tiếp Tục
+        zh_cjv: 继续
+        zh_cn: 继续
+        zh_tw: 繼續
+    Action.Invite:
+      english_string: Invite
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: دعوة
+        de_de: Einladen
+        es_es: Invitar
+        fr_fr: Inviter
+        id_id: Undang
+        it_it: Invita
+        ja_jp: 招待
+        ko_kr: 초대
+        pl_pl: Zaproś
+        pt_br: Convidar
+        ru_ru: Пригласить
+        th_th: เชิญ
+        tr_tr: Davet Et
+        vi_vn: Mời
+        zh_cjv: 邀请
+        zh_cn: 邀请
+        zh_tw: 邀請
+    Action.NeedContactsAccess:
+      english_string: Roblox needs access to your contacts to help find your friends.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: يحتاج Roblox إلى الوصول إلى جهات الاتصال الخاصة بك للمساعدة في العثور
+          على أصدقائك.
+        de_de: Roblox benötigt Zugriff auf deine Kontakte, um deine Freund:innen finden
+          zu können.
+        es_es: Roblox necesita acceso a tus contactos para ayudarte a encontrar a
+          tus amigos.
+        fr_fr: Roblox a besoin d'accéder à vos contacts pour rechercher vos amis.
+        id_id: Roblox memerlukan akses ke kontak kamu untuk menemukan teman kamu.
+        it_it: Roblox ha bisogno di accedere ai tuoi contatti per aiutarti a trovare
+          i tuoi amici.
+        ja_jp: 友達を見つけるには、Robloxからあなたの連絡先リストへのアクセスが必要になります。
+        ko_kr: 친구 찾기를 하려면 회원님의 연락처에 대한 접근 권한이 필요합니다.
+        pl_pl: Aby pomóc ci znaleźć znajomych, platforma Roblox wymaga dostępu do
+          kontaktów.
+        pt_br: Roblox precisa de acesso aos seus contatos para ajudar você a procurar
+          amizades.
+        ru_ru: Roblox требуется доступ к твоим контактам для поиска друзей.
+        th_th: Roblox จำเป็นต้องเข้าถึงรายชื่อผู้ติดต่อของคุณเพื่อค้นหาเพื่อนของคุณ
+        tr_tr: Roblox'un arkadaşlarını bulmanda sana yardımcı olması için rehberine
+          erişmesi gerekiyor.
+        vi_vn: Roblox cần quyền truy cập vào danh bạ của bạn để giúp tìm bạn bè của
+          bạn.
+        zh_cjv: 罗布乐思需要访问你的联系人，以帮助查找你的好友。
+        zh_cn: Roblox 需要访问你的联系人，以帮助查找你的好友。
+        zh_tw: 若要協助您尋找 Roblox 上的好友，我們將需要存取您的聯絡人。
+    Label.Added:
+      english_string: Added
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: أضيف
+        de_de: Hinzugefügt
+        es_es: Añadido
+        fr_fr: Ajoutés
+        id_id: Ditambahkan
+        it_it: Aggiunto
+        ja_jp: 追加されました
+        ko_kr: 추가됨
+        pl_pl: Dodano
+        pt_br: Adicionado
+        ru_ru: Добавлено
+        th_th: เพิ่มแล้ว
+        tr_tr: Eklendi
+        vi_vn: Đã Thêm
+        zh_cjv: 已添加
+        zh_cn: 已添加
+        zh_tw: 已新增
+    Label.ContactsAlsoOnRoblox:
+      english_string: Contacts Also On Roblox
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: جهات الاتصال أيضا على Roblox
+        de_de: Kontakte, die bei Roblox sind
+        es_es: Contactos presentes en Roblox
+        fr_fr: Contacts également sur Roblox
+        id_id: Kontak Juga Ada di Roblox
+        it_it: Contatti anche su Roblox
+        ja_jp: Robloxでも使用する連絡先リスト
+        ko_kr: Roblox 연락처 포함
+        pl_pl: Kontakty również na platformie Roblox
+        pt_br: Contatos também na Roblox
+        ru_ru: Контакты в Roblox
+        th_th: ผู้ติดต่ออยู่บน Roblox เช่นกัน
+        tr_tr: Roblox'ta Olan Rehberindeki Kişiler
+        vi_vn: Thông Tin Liên Hệ Cũng Chơi Roblox
+        zh_cjv: 也在罗布乐思的联系人
+        zh_cn: 也在 Roblox 上的联系人
+        zh_tw: 也在 Roblox 的聯絡人
+    Label.EmptyContactsBook:
+      english_string: Sorry, your contact book is empty.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: عذراً، دفتر جهات الاتصال الخاص بك فارغ.
+        de_de: Tut uns leid, du hast keine Kontakte.
+        es_es: Lo sentimos, tu libreta de contactos está vacía.
+        fr_fr: Désolé, ton répertoire ne contient aucun contact.
+        id_id: Maaf, daftar kontak kamu kosong.
+        it_it: Spiacenti, la tua rubrica è vuota.
+        ja_jp: 申し訳ありませんが、連絡帳への登録がありません。
+        ko_kr: 죄송합니다. 연락처가 비어있습니다.
+        pl_pl: Twoja lista kontaktów jest pusta.
+        pt_br: Sua agenda de contatos está vazia.
+        ru_ru: Список контактов пуст.
+        th_th: ขออภัย ไม่มีข้อมูลในรายชื่อผู้ติดต่อของคุณ
+        tr_tr: Üzgünüz, rehberin boş.
+        vi_vn: Rất tiếc, danh bạ của bạn không có thông tin liên hệ nào.
+        zh_cjv: 抱歉，你的通讯录为空。
+        zh_cn: 抱歉，你的通讯录为空。
+        zh_tw: 對不起，您的通訊錄空白。
+    Label.FetchingContacts:
+      english_string: Fetching contacts…
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: جلب جهات الاتصال…
+        de_de: Kontakte werden abgerufen…
+        es_es: Buscando contactos…
+        fr_fr: Récupération des contacts...
+        id_id: Mengambil kontak…
+        it_it: Recupero dei contatti...
+        ja_jp: 連絡先リストを取得中...
+        ko_kr: 연락처 가져오는 중…
+        pl_pl: Pobieranie kontaktów…
+        pt_br: Obtendo contatos
+        ru_ru: Получение информации о контактах...
+        th_th: กำลังดึงข้อมูลรายชื่อผู้ติดต่อ...
+        tr_tr: Kişiler alınıyor…
+        vi_vn: Đang thu thập thông tin liên hệ…
+        zh_cjv: 正在获取联系人…
+        zh_cn: 正在获取联系人…
+        zh_tw: 正在擷取聯絡人……
+    Label.Friends:
+      english_string: Friends
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: الأصدقاء
+        de_de: Freund:innen
+        es_es: Amigos
+        fr_fr: Amis
+        id_id: Teman
+        it_it: Amici
+        ja_jp: 友達
+        ko_kr: 친구
+        pl_pl: Znajomi
+        pt_br: Amizades
+        ru_ru: Друзья
+        th_th: เพื่อน
+        tr_tr: Arkadaşlar
+        vi_vn: Bạn Bè
+        zh_cjv: 好友
+        zh_cn: 好友
+        zh_tw: 好友
+    Label.Invited:
+      english_string: Invited
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: مدعو
+        de_de: Eingeladen
+        es_es: Invitado
+        fr_fr: Invité
+        id_id: Diundang
+        it_it: Invitato
+        ja_jp: 招待済み
+        ko_kr: 초대됨
+        pl_pl: Zaproszono
+        pt_br: Convidado
+        ru_ru: Приглашено
+        th_th: เชิญแล้ว
+        tr_tr: Davet Edildi
+        vi_vn: Đã Mời
+        zh_cjv: 已邀请
+        zh_cn: 已邀请
+        zh_tw: 已邀請
+    Label.MutualFriends:
+      english_string: '{var1} Mutual Friends'
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: '{var1} أصدقاء متبادلون'
+        de_de: '{var1} gemeinsame Freund:innen'
+        es_es: '{var1} amistades en común'
+        fr_fr: '{var1} amis en commun'
+        id_id: '{var1} Teman Bersama'
+        it_it: '{var1} Amici comuni'
+        ja_jp: '{var1}人の共通の友達'
+        ko_kr: 서로 아는 친구 {var1}명
+        pl_pl: 'Wspólni znajomi: {var1}'
+        pt_br: '{var1} amizades em comum'
+        ru_ru: 'Общие друзья: {var1}'
+        th_th: มีเพื่อนร่วมกัน {var1} คน
+        tr_tr: '{var1} Ortak Arkadaş'
+        vi_vn: '{var1} Bạn Chung'
+        zh_cjv: '{var1} 位共同好友'
+        zh_cn: '{var1} 位共同好友'
+        zh_tw: '{var1} 位共同好友'
+    Label.OtherContacts:
+      english_string: Other contacts
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: جهات اتصال أخرى
+        de_de: Andere Kontakte
+        es_es: Otros contactos
+        fr_fr: Autres contacts
+        id_id: Kontak lain
+        it_it: Altri contatti
+        ja_jp: その他の連絡先リスト
+        ko_kr: 기타 연락처
+        pl_pl: Inne kontakty
+        pt_br: Outros contatos
+        ru_ru: Другие контакты
+        th_th: ผู้ติดต่ออื่นๆ
+        tr_tr: Diğer kişiler
+        vi_vn: Thông tin liên hệ khác
+        zh_cjv: 其他联系人
+        zh_cn: 其他联系人
+        zh_tw: 其他聯絡人
+    Label.Over13Feature:
+      english_string: This feature is currently not available to you.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: هذه الميزة غير متوفرة لك حاليًا.
+        de_de: Diese Funktion ist derzeit nicht für dich verfügbar.
+        es_es: Esta función no está disponible para ti en este momento.
+        fr_fr: Vous ne pouvez pas accéder à cette fonctionnalité pour le moment.
+        id_id: Fitur ini sedang tidak tersedia.
+        it_it: Questa funzione non è attualmente disponibile.
+        ja_jp: この機能は現在ご利用いただけません。
+        ko_kr: 회원님은 현재 본 기능을 사용할 수 없습니다.
+        pl_pl: Obecnie nie masz dostępu do tej funkcji.
+        pt_br: Esta funcionalidade não está disponível para você no momento.
+        ru_ru: В настоящее время эта функция недоступна.
+        th_th: คุณไม่สามารถใช้คุณสมบัตินี้ได้ในขณะนี้
+        tr_tr: Bu özellik şu anda kullanımına sunulamıyor.
+        vi_vn: Tính năng này hiện không hỗ trợ cho bạn.
+        zh_cjv: 你目前不能使用此功能。
+        zh_cn: 你目前不能使用此功能。
+        zh_tw: 您目前無法使用此功能。
+    Label.Pending:
+      english_string: Pending
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: معلق
+        de_de: Ausstehend
+        es_es: Pendiente
+        fr_fr: En attente
+        id_id: Pending
+        it_it: In sospeso
+        ja_jp: 保留中
+        ko_kr: 대기 중
+        pl_pl: W toku
+        pt_br: Pendente
+        ru_ru: Обрабатывается
+        th_th: รอดำเนินการ
+        tr_tr: Bekliyor
+        vi_vn: Chờ Xử Lý
+        zh_cjv: 待处理
+        zh_cn: 待处理
+        zh_tw: 待處理
+    Label.PermissionsFinePrintLink:
+      english_string: Learn more
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: اعرف المزيد
+        de_de: Mehr erfahren
+        es_es: Más información
+        fr_fr: En savoir plus
+        id_id: Pelajari selengkapnya
+        it_it: Maggiori informazioni
+        ja_jp: もっと詳しく
+        ko_kr: 더 알아보기
+        pl_pl: Dowiedz się więcej
+        pt_br: Saiba mais
+        ru_ru: Подробнее
+        th_th: เรียนรู้เพิ่มเติม
+        tr_tr: Daha fazla bilgi edin
+        vi_vn: Tìm hiểu thêm
+        zh_cjv: 了解更多
+        zh_cn: 了解更多
+        zh_tw: 了解更多
+    Label.SearchContacts:
+      english_string: Search Contacts
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: البحث عن جهات الاتصال
+        de_de: Kontakte durchsuchen
+        es_es: Buscar contactos
+        fr_fr: Rechercher des contacts
+        id_id: Cari Kontak
+        it_it: Cerca contatti
+        ja_jp: 連絡先リストをサーチ
+        ko_kr: 연락처 검색
+        pl_pl: Wyszukaj kontakty
+        pt_br: Pesquisar contatos
+        ru_ru: Поиск по контактам
+        th_th: ค้นหาผู้ติดต่อ
+        tr_tr: Rehber'de Ara
+        vi_vn: Tìm Liên Hệ
+        zh_cjv: 搜索联系人
+        zh_cn: 搜索联系人
+        zh_tw: 搜尋聯絡人
+    Response.ContactPermissionNeeded:
+      english_string: By clicking "Continue", you agree that we will access, store,
+        and continuously sync your contacts. {var1}
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: بالنقر فوق "استمرار"، فإنك توافق على أننا سنتمكن من الوصول إلى جهات
+          الاتصال الخاصة بك وتخزينها ومزامنتها باستمرار. {var1}
+        de_de: Wenn du auf „Weiter“ klickst, stimmst du zu, dass wir auf deine Kontakte
+          zugreifen, sie speichern und fortlaufend synchronisieren können. {var1}
+        es_es: Al hacer clic en "Continuar", aceptas que accedamos, almacenemos y
+          sincronicemos continuamente tus contactos. {var1}
+        fr_fr: En cliquant sur Continuer, vous nous autorisez à accéder aux données
+          relatives à vos contacts ainsi qu'à les stocker et à les synchroniser régulièrement.
+          {var1}
+        id_id: Dengan mengklik "Lanjutkan", kamu setuju bahwa kami akan mengakses,
+          menyimpan, dan secara berkala menyinkronkan kontak kamu. {var1}
+        it_it: Cliccando su "Continua", accetti che accederemo, memorizzeremo e sincronizzeremo
+          continuamente i tuoi contatti. {var1}
+        ja_jp: 「続ける」をクリックすることで、あなたの連絡先リストへのアクセスと保存、継続的なデータ同期に同意したものとみなされます。{var1}
+        ko_kr: '''계속''을 클릭하면 회원님의 연락처에 대한 Roblox의 접근, 저장 및 지속적인 동기화 권한에 동의하게 됩니다.
+          {var1} '
+        pl_pl: Klikając „Kontynuuj”, zezwalasz nam na dostęp do twoich kontaktów,
+          ich przechowywanie oraz ciągłe synchronizowanie. {var1}
+        pt_br: Clicando em “Continuar", você concorda que teremos acesso, armazenaremos
+          e sincronizaremos seus contatos continuamente. {var1}
+        ru_ru: Выбирая «Продолжить», ты соглашаешься с тем, что мы получим доступ
+          к твоим контактам и будем хранить и постоянно обновлять информацию о них.
+          {var1}
+        th_th: การคลิกที่ "ดำเนินการต่อ" จะถือว่าคุณยินยอมให้เราเข้าถึง จัดเก็บ และซิงค์ข้อมูลผู้ติดต่อของคุณอย่างต่อเนื่อง
+          {var1}
+        tr_tr: '"Devam Et" düğmesine tıklayarak rehberine erişeceğimizi, rehberini
+          saklayacağımızı ve sürekli olarak senkronize edeceğimizi kabul etmiş olursun.
+          {var1}'
+        vi_vn: Bằng cách nhấp vào "Tiếp Tục", bạn đồng ý cho phép chúng tôi truy cập,
+          lưu trữ và liên tục đồng bộ hóa danh bạ của bạn. {var1}
+        zh_cjv: 点按“继续”，即表示你同意我们访问、储存并持续同步你的联系人。{var1}
+        zh_cn: 点按“继续”，即表示你同意我们访问、储存并持续同步你的联系人。{var1}
+        zh_tw: 您按下「繼續」表示同意我們使用、儲存及持續同步您的聯絡人{var1}。
+    Response.NetworkError:
+      english_string: We are having trouble accessing your contact book. Please try
+        again in a few minutes.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: نحن نواجه مشكلة في الوصول إلى دفتر جهات الاتصال. الرجاء المحاولة مرة
+          أخرى في بضع دقائق.
+        de_de: Beim Zugriff auf deine Kontakte ist ein Problem aufgetreten. Bitte
+          versuche es in einigen Minuten erneut.
+        es_es: Tenemos problemas al acceder a tu libreta de contactos. Inténtalo de
+          nuevo en unos minutos.
+        fr_fr: Nous rencontrons des difficultés à accéder à tes contacts. Réessaye
+          dans quelques minutes.
+        id_id: Kami mengalami masalah saat mengakses daftar kontak kamu. Coba lagi
+          dalam beberapa menit.
+        it_it: Abbiamo problemi ad accedere alla tua rubrica dei contatti. Riprova
+          tra qualche minuto.
+        ja_jp: あなたの連絡帳へのアクセスに問題があります。数分後にもう一度お試しください。
+        ko_kr: 연락처 접속 중 오류가 발생했어요. 몇 분 후 다시 시도하세요.
+        pl_pl: Wystąpił problem z uzyskaniem dostępu do kontaktów. Spróbuj ponownie
+          za kilka minut.
+        pt_br: Estamos tendo problemas para acessar sua agenda de contatos. Tente
+          novamente em alguns minutos.
+        ru_ru: Нам не удается получить доступ к твоему списку контактов. Повтори попытку
+          через несколько минут.
+        th_th: เราประสบปัญหาในการเข้าถึงรายชื่อผู้ติดต่อของคุณ โปรดลองอีกครั้งในอีกสักครู่
+        tr_tr: Rehberine erişimde sorun yaşıyoruz. Lütfen birkaç dakika sonra tekrar
+          dene.
+        vi_vn: Chúng tôi gặp khó khăn khi truy cập vào danh bạ của bạn. Vui lòng thử
+          lại sau vài phút nữa.
+        zh_cjv: 我们访问你的通讯录遇到困难。请过几分钟再重试。
+        zh_cn: 我们访问你的通讯录遇到困难。请过几分钟再重试。
+        zh_tw: 無法存取您的通訊錄，請稍後再試。
+  Locale:
+    Label.SettingLanguage:
+      english_string: Setting Language...
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: إعداد اللغة...
+        de_de: Sprache wird eingestellt ...
+        es_es: Configurando el idioma...
+        fr_fr: Changement de langue...
+        id_id: Mengatur Bahasa...
+        it_it: Impostazione lingua...
+        ja_jp: 言語を設定中...
+        ko_kr: 언어 설정 중...
+        pl_pl: Ustawianie języka...
+        pt_br: Definindo idioma...
+        ru_ru: Сохранение настроек...
+        th_th: กำลังตั้งค่าภาษา...
+        tr_tr: Dil Ayarlanıyor...
+        vi_vn: Đang Cài Đặt Ngôn Ngữ...
+        zh_cjv: 正在设置语言...
+        zh_cn: 正在设置语言...
+        zh_tw: 正在設定語言……
+  Nearby:
+    Action.NeedRecordAudioAccess:
+      english_string: Roblox needs access to your microphone to find people around
+        you.
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: يحتاج Roblox إلى الوصول إلى الميكروفون الخاص بك للعثور على أشخاص حولك.
+        de_de: Roblox benötigt Zugriff auf dein Mikrofon, um Personen in deiner Nähe
+          zu finden.
+        es_es: Roblox necesita acceder a tu micrófono para encontrar a personas cerca
+          de ti.
+        fr_fr: Roblox a besoin d'accéder à ton microphone pour trouver les personnes
+          qui vous entourent.
+        id_id: Roblox memerlukan akses ke mikrofon ponsel kamu untuk menemukan pengguna
+          di sekitar kamu.
+        it_it: Roblox ha bisogno di accedere al tuo microfono per trovare persone
+          intorno a te.
+        ja_jp: Robloxで周囲にいる人を見つけるには、マイクへのアクセスが必要です。
+        ko_kr: Roblox가 주변에 있는 회원을 찾으려면 마이크에 대한 접근 권한이 필요합니다.
+        pl_pl: Aby znajdować osoby w twojej okolicy, aplikacja Roblox wymaga dostępu
+          do mikrofonu.
+        pt_br: A Roblox precisa acessar seu microfone para encontrar pessoas perto
+          de você.
+        ru_ru: Roblox необходим доступ к микрофону для поиска пользователей рядом
+          с тобой.
+        th_th: Roblox จำเป็นต้องเข้าถึงไมโครโฟนของคุณเพื่อค้นหาผู้ใช้ที่อยู่รอบๆ คุณ
+        tr_tr: Roblox'un etrafındaki insanları bulması için mikrofonuna erişmesi gerekiyor.
+        vi_vn: Roblox cần quyền truy cập vào micro để tìm những người xung quanh bạn.
+        zh_cjv: 罗布乐思需要访问你的麦克风以找到附近的用户。
+        zh_cn: Roblox 需要访问你的麦克风以找到附近的用户。
+        zh_tw: Roblox 需要使用您的麥克風尋找您附近的人。
+    Action.Retry:
+      english_string: Retry
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: إعادة المحاولة
+        de_de: Erneut versuchen
+        es_es: Reintentar
+        fr_fr: Réessayer
+        id_id: Coba Lagi
+        it_it: Riprova
+        ja_jp: 再試行
+        ko_kr: 다시 시도
+        pl_pl: Spróbuj ponownie
+        pt_br: Tentar novamente
+        ru_ru: Повторить
+        th_th: ลองอีกครั้ง
+        tr_tr: Tekrar Dene
+        vi_vn: Thử Lại
+        zh_cjv: 重试
+        zh_cn: 重试
+        zh_tw: 重試
+    Label.Accept:
+      english_string: Accept
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: قبول
+        de_de: Annehmen
+        es_es: Aceptar
+        fr_fr: Accepter
+        id_id: Terima
+        it_it: Accetta
+        ja_jp: 承認する
+        ko_kr: 수락
+        pl_pl: Zaakceptuj
+        pt_br: Aceitar
+        ru_ru: Принять
+        th_th: ยอมรับ
+        tr_tr: Kabul Et
+        vi_vn: Chấp Nhận
+        zh_cjv: 接受
+        zh_cn: 接受
+        zh_tw: 接受
+    Label.Empty:
+      english_string: ' '
+      description: |-
+        This is unicode value in android for empty string. Other language translations should use the same value.
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: \u0020
+        de_de: \u0020
+        es_es: \u0020
+        fr_fr: \u0020
+        id_id: \u0020
+        it_it: \u0020
+        ja_jp: \u0020
+        ko_kr: \u0020
+        pl_pl: \u0020
+        pt_br: \u0020
+        ru_ru: \u0020
+        th_th: \u0020
+        tr_tr: \u0020
+        vi_vn: \u0020
+        zh_cjv: ' '
+        zh_cn: ' '
+        zh_tw: \u0020
+    Label.Friend:
+      english_string: Friend
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: صديق
+        de_de: Freund:in
+        es_es: Amistad
+        fr_fr: Ami
+        id_id: Teman
+        it_it: Amico
+        ja_jp: 友達
+        ko_kr: 친구
+        pl_pl: Znajomy
+        pt_br: Amizade
+        ru_ru: Друг
+        th_th: เพื่อน
+        tr_tr: Arkadaş
+        vi_vn: Bạn Bè
+        zh_cjv: 好友
+        zh_cn: 好友
+        zh_tw: 好友
+    Label.FriendRequestsFailedFormatted:
+      english_string: Please make sure that {var1} is near you and on this page.
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: الرجاء التأكد من أن {var1} بالقرب منك وعلى هذه الصفحة.
+        de_de: Stelle sicher, dass sich {var1} in deiner Nähe und auf dieser Seite
+          befindet.
+        es_es: Asegúrate de que {var1} esté cerca de ti y en esta página.
+        fr_fr: Veuillez vous assurer que le joueur {var1} est à proximité de vous
+          et sur cette page.
+        id_id: Pastikan bahwa {var1} di dekat kamu dan ada di halaman ini.
+        it_it: Assicurati che {var1} sia vicino a te e su questa pagina.
+        ja_jp: '{var1}が近くにいて、このページを開いていることを確認してください。'
+        ko_kr: '{var1}(이)가 근처에 있고 이 페이지에 있는지 확인하세요.'
+        pl_pl: Upewnij się, że użytkownik {var1} jest blisko ciebie i otworzył tę
+          stronę.
+        pt_br: Certifique-se de que {var1} está perto de você e nesta página.
+        ru_ru: Убедись, что {var1} находится рядом и на этой странице.
+        th_th: โปรดตรวจสอบให้แน่ใจว่า {var1} อยู่ใกล้คุณและเปิดหน้านี้อยู่
+        tr_tr: Lütfen {var1} adlı kullanıcının senin yakınlarında ve bu sayfada olduğundan
+          emin ol.
+        vi_vn: Hãy đảm bảo rằng {var1} ở gần bạn và có mở trang này.
+        zh_cjv: 请确保{var1}在你附近，并在此页面显示。
+        zh_cn: 请确保{var1}在你附近，并在此页面显示。
+        zh_tw: 請確認 {var1} 在您附近並在此頁面。
+    Label.FriendRequestsFloodChecked:
+      english_string: Too many friend requests sent. Please try again in a few minutes.
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: تم إرسال العديد من طلبات الصداقة. الرجاء المحاولة مرة أخرى في بضع
+          دقائق.
+        de_de: Du hast zu viele Freundschaftsanfragen gesendet. Bitte versuche es
+          in einigen Minuten erneut.
+        es_es: Demasiadas solicitudes de amistad enviadas. Inténtalo de nuevo en unos
+          minutos.
+        fr_fr: Trop de demandes d'amitié envoyées. Veuillez réessayer dans quelques
+          minutes.
+        id_id: Terlalu banyak permintaan pertemanan telah dikirim. Coba lagi dalam
+          beberapa menit.
+        it_it: Troppe richieste di amicizia mandate. Riprova tra qualche minuto.
+        ja_jp: 友達リクエストの送信回数が多すぎます。数分後にもう一度お試しください。
+        ko_kr: 친구 요청 횟수 초과. 몇 분 후 다시 시도하세요.
+        pl_pl: Wysłano zbyt wiele próśb o dodanie do znajomych. Spróbuj ponownie za
+          kilka minut.
+        pt_br: Muitos pedidos de amizade enviados. Tente novamente em alguns minutos.
+        ru_ru: Отправлено слишком много запросов дружбы. Повтори попытку через несколько
+          минут.
+        th_th: มีการส่งคำขอเป็นเพื่อนมากเกินไป โปรดลองอีกครั้งในอีกสักครู่
+        tr_tr: Çok fazla arkadaşlık isteği gönderildi. Lütfen birkaç dakika sonra
+          tekrar dene.
+        vi_vn: Bạn đã gửi quá nhiều yêu cầu kết bạn. Vui lòng thử lại sau vài phút
+          nữa.
+        zh_cjv: 发送好友邀请次数过多。请几分钟后重试。
+        zh_cn: 发送好友邀请次数过多。请几分钟后重试。
+        zh_tw: 傳送好友邀請次數過多，請稍後再試。
+    Label.IntroText:
+      english_string: Roblox uses the microphone to find people around you. We may
+        increase your audio volume. {var1}.
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: يستخدم Roblox الميكروفون للعثور على أشخاص حولك. قد نزيد من حجم الصوت
+          الخاص بك. {var1}.
+        de_de: Roblox verwendet das Mikrofon, um Benutzer:innen in deiner Nähe zu
+          finden. Hierzu erhöhen wir eventuell deine Tonlautstärke. {var1}.
+        es_es: Roblox usa el micrófono para encontrar a personas cerca de ti y puede
+          aumentar el volumen de tu dispositivo. {var1}.
+        fr_fr: Roblox utilise le micro pour trouver des membres à proximité. Il sera
+          peut-être nécessaire d'augmenter le volume. {var1}.
+        id_id: Roblox menggunakan mikrofon untuk menemukan pengguna di sekitar kamu.
+          Kami mungkin akan meningkatkan volume audio ponsel kamu. {var1}.
+        it_it: Roblox usa il microfono per trovare persone intorno a te. Potremmo
+          aumentare il volume dell'audio. {var1}.
+        ja_jp: Robloxで周囲の人を見つけるためにマイクを使います。オーディオの音量を上げてください。{var1}。
+        ko_kr: Roblox가 마이크를 이용해 주변 회원을 찾아 줍니다. 오디오 볼륨이 올라갈 수도 있어요. {var1}.
+        pl_pl: Aplikacja Roblox korzysta z mikrofonu do znajdowania osób w twojej
+          okolicy. Możemy zwiększyć głośność dźwięku na twoim urządzeniu. {var1}.
+        pt_br: A Roblox usa o microfone para encontrar pessoas perto de você. Podemos
+          aumentar seu volume de áudio. {var1}.
+        ru_ru: Roblox использует микрофон, чтобы находить людей поблизости. Мы можем
+          увеличить громкость звука. {var1}.
+        th_th: Roblox ใช้ไมโครโฟนเพื่อค้นหาผู้ใช้ที่อยู่รอบๆ คุณ เราอาจเพิ่มระดับเสียงของคุณ
+          {var1}
+        tr_tr: Roblox, etrafındaki insanları bulmak için mikrofonu kullanır. Ses seviyesini
+          artırabiliriz. {var1}.
+        vi_vn: Roblox sử dụng micro để tìm người chơi ở xung quanh bạn. Chúng tôi
+          có thể sẽ tăng âm lượng của bạn. {var1}.
+        zh_cjv: 罗布乐思使用麦克风以找到你附近的人。我们可能会提高你的音量。{var1}。
+        zh_cn: Roblox 使用麦克风以找到你附近的人。我们可能会提高你的音量。{var1}。
+        zh_tw: Roblox 將使用麥克風尋找在您附近的人。我們可能會提高您的音訊音量。 {var1}。
+    Label.InvalidTokenError:
+      english_string: User not found? Place your phones closer together.
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: لم يتم العثور على المستخدم؟ ضع هواتفك بالقرب معا.
+        de_de: Benutzer:in nicht gefunden? Legt eure Handys dicht nebeneinander.
+        es_es: ¿No encuentras a la personas? Acerquen sus teléfonos.
+        fr_fr: Le participant est introuvable ? Placez vos téléphones l'un près de
+          l'autre.
+        id_id: Pengguna tidak ditemukan? Letakkan ponselmu dan ponsel pengguna secara
+          berdekatan.
+        it_it: Utente non trovato? Avvicinate i vostri telefoni.
+        ja_jp: ユーザーが見つからない場合。端末をお互いに近づけてください。
+        ko_kr: 사용자를 찾을 수 없나요? 전화기를 서로 가까이 두세요.
+        pl_pl: Nie znaleziono użytkownika? Przysuńcie wasze telefony bliżej siebie.
+        pt_br: Pessoa não encontrada? Coloquem seus celulares próximos.
+        ru_ru: Пользователь не найден? Держите ваши устройства рядом.
+        th_th: ไม่พบผู้ใช้ใช่หรือไม่? วางโทรศัพท์ของคุณให้ใกล้กันมากยิ่งขึ้น
+        tr_tr: Kullanıcı bulunamadı mı? Telefonlarınızı birbirine biraz daha yaklaştırın.
+        vi_vn: Không tìm thấy người chơi nào? Hãy đặt điện thoại của các bạn ở gần
+          nhau hơn.
+        zh_cjv: 找不到玩家？请将你们的手机靠得更近一些。
+        zh_cn: 找不到用户？试着把手机靠得更近一些。
+        zh_tw: 找不到使用者嗎？試試看把手機放得更近。
+    Label.LearnMore:
+      english_string: Learn more
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: اعرف المزيد
+        de_de: Mehr erfahren
+        es_es: Más información
+        fr_fr: En savoir plus
+        id_id: Pelajari selengkapnya
+        it_it: Maggiori informazioni
+        ja_jp: もっと詳しく
+        ko_kr: 더 알아보기
+        pl_pl: Dowiedz się więcej
+        pt_br: Saiba mais
+        ru_ru: Подробнее
+        th_th: เรียนรู้เพิ่มเติม
+        tr_tr: Daha fazla bilgi edin
+        vi_vn: Tìm hiểu thêm
+        zh_cjv: 了解更多
+        zh_cn: 了解更多
+        zh_tw: 了解更多
+    Label.LooksLikeNoOneIsAround:
+      english_string: Looks like no one is around you. Nearby users will need to have
+        this page open too. Place your phones closer together.
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: يبدو أنه لا أحد من حولك. سيحتاج المستخدمون القريبون إلى فتح هذه الصفحة
+          أيضًا. ضع هواتفك قريبًا معاً.
+        de_de: Es scheint niemand in deiner Nähe zu sein. Benutzer:innen in deiner
+          Nähe müssen diese Seite auch geöffnet haben. Platziert eure Handys nah beieinander.
+        es_es: Parece que no hay nadie a tu alrededor. Las personas que están cerca
+          de ti también deben tener esta página abierta. Acerquen sus teléfonos.
+        fr_fr: Il semble n'y avoir aucun membre près de toi. Les participants à proximité
+          doivent eux aussi être sur cette page. Rapprochez vos téléphones.
+        id_id: Sepertinya tidak ada seorang pun di sekitar kamu. Pengguna sekitar
+          harus membuka halaman ini juga. Letakkan ponselmu dan ponsel pengguna secara
+          berdekatan.
+        it_it: Sembra che non ci sia nessuno intorno a te. Anche gli utenti nelle
+          vicinanze dovranno avere questa pagina aperta. Avvicinate i telefoni.
+        ja_jp: 周りには誰もいないようです。近くにいるユーザーもこのページを開けなければなりません。端末をお互いに近づけてください。
+        ko_kr: 회원님 주변에 사용자가 없네요. 회원님 주변의 사용자도 이 페이지를 열고 있어야 합니다. 전화기를 서로 가까이 두도록 하세요.
+        pl_pl: Zdaje się, że w twojej okolicy nikogo nie ma. Użytkownicy w pobliżu
+          muszą również otworzyć tę stronę. Przysuńcie wasze telefony bliżej siebie.
+        pt_br: Parece que não tem ninguém por perto. Pessoas perto de você terão que
+          abrir esta página também. Aproximem seus celulares.
+        ru_ru: Похоже, рядом никого нет. Необходимо, чтобы у пользователей, находящихся
+          рядом, тоже была открыта эта страница. Держите ваши устройства рядом.
+        th_th: ดูเหมือนว่าจะไม่มีใครอยู่รอบๆ คุณ ผู้ใช้ที่อยู่ใกล้จำเป็นต้องเปิดหน้านี้อยู่ด้วย
+          วางโทรศัพท์ของคุณให้ใกล้กันมากยิ่งขึ้น
+        tr_tr: Yakınlarında kimse bulunmuyor gibi görünüyor. Yakındaki kullanıcıların
+          da bu sayfayı açık tutması gerekir. Telefonlarınızı birbirine biraz daha
+          yaklaştırın.
+        vi_vn: Có vẻ như không có ai ở gần bạn cả. Người chơi ở gần cũng sẽ cần phải
+          mở trang này. Hãy để điện thoại của các bạn ở gần nhau hơn.
+        zh_cjv: 你附近好像没有玩家。附近的玩家也需要打开此页面；请尝试将你们的手机靠得更近一些。
+        zh_cn: 好像没有人在你附近。附近用户也将需要打开此页面。请将你们的手机靠得更近一些。
+        zh_tw: 看來您附近沒有人。附近的使用者也需要開啟此頁面，請嘗試將手機放得更靠近。
+    Label.NearbyInfoText:
+      english_string: Nearby users will have to have this page open too.
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: سيحتاج المستخدمون القريبة إلى جعل هذه الصفحة مفتوحة أيضا.
+        de_de: Benutzer:innen in deiner Nähe müssen diese Seite auch geöffnet haben.
+        es_es: Las personas que están cerca también necesitan tener esta página abierta.
+        fr_fr: Les participants à proximité doivent aussi ouvrir cette page.
+        id_id: Pengguna sekitar harus membuka halaman ini juga.
+        it_it: Anche le persone vicine devono avere questa pagina aperta.
+        ja_jp: 近くのユーザーもこのページを開けなければなりません。
+        ko_kr: 주변에 있는 사용자들도 이 페이지를 열어야 할 거예요.
+        pl_pl: Użytkownicy w pobliżu muszą również otworzyć tę stronę.
+        pt_br: Pessoas perto de você terão que abrir esta página também.
+        ru_ru: Необходимо, чтобы у пользователей, находящихся рядом, тоже была открыта
+          эта страница.
+        th_th: ผู้ใช้ที่อยู่ใกล้คุณจะต้องเปิดหน้านี้อยู่ด้วย
+        tr_tr: Yakındaki kullanıcıların da bu sayfayı açık tutması gerekiyor.
+        vi_vn: Người chơi ở gần cũng sẽ phải mở trang này.
+        zh_cjv: 附近的玩家也将需要打开此页面。
+        zh_cn: 附近的用户也将需要打开此页面。
+        zh_tw: 附近的使用者也需要開啟此頁面。
+    Label.Pending:
+      english_string: Pending
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: معلق
+        de_de: Ausstehend
+        es_es: Pendiente
+        fr_fr: En attente
+        id_id: Pending
+        it_it: In sospeso
+        ja_jp: 承認待ちです
+        ko_kr: 대기 중
+        pl_pl: Oczekujące
+        pt_br: Pendente
+        ru_ru: Ожидание
+        th_th: รอดำเนินการ
+        tr_tr: Bekliyor
+        vi_vn: Chờ Xử Lý
+        zh_cjv: 处理中
+        zh_cn: 处理中
+        zh_tw: 待處理
+    Label.PleaseTryAgain:
+      english_string: Please try again in a few minutes.
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: الرجاء المحاولة مرة أخرى في بضع دقائق.
+        de_de: Bitte versuche es in einigen Minuten erneut.
+        es_es: Inténtalo de nuevo en unos minutos.
+        fr_fr: Veuillez réessayer dans quelques minutes.
+        id_id: Coba lagi dalam beberapa menit.
+        it_it: Riprova tra qualche minuto.
+        ja_jp: 数分後にもう一度お試しください。
+        ko_kr: 몇 분 후 다시 시도해 보세요.
+        pl_pl: Spróbuj ponownie za kilka minut.
+        pt_br: Tente novamente em alguns minutos.
+        ru_ru: Повтори попытку через несколько минут.
+        th_th: โปรดลองอีกครั้งในอีกสักครู่
+        tr_tr: Lütfen birkaç dakika sonra tekrar dene.
+        vi_vn: Vui lòng thử lại sau vài phút nữa.
+        zh_cjv: 请几分钟后重试。
+        zh_cn: 请几分钟后重试。
+        zh_tw: 請在幾分鐘後重新嘗試。
+    Label.PleaseTurnUpTheVolume:
+      english_string: Please increase your device's media volume.
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: الرجاء زيادة مستوى صوت الوسائط لجهازك.
+        de_de: Bitte stelle die Medienlautstärke deines Geräts lauter.
+        es_es: Aumenta el volumen de tu dispositivo.
+        fr_fr: Veuillez augmenter le volume de votre appareil.
+        id_id: Tingkatkan volume media ponsel kamu.
+        it_it: Aumenta il volume dei media del dispositivo.
+        ja_jp: デバイスのメディアの音量を上げてください。
+        ko_kr: 기기의 미디어 볼륨을 높이세요.
+        pl_pl: Zwiększ głośność multimediów na swoim urządzeniu.
+        pt_br: Aumente o volume de mídia do seu dispositivo.
+        ru_ru: Увеличь громкость устройства.
+        th_th: โปรดเพิ่มเสียงสื่อของอุปกรณ์ของคุณ
+        tr_tr: Lütfen cihazının medya sesini arttır.
+        vi_vn: Vui lòng tăng âm lượng media trên thiết bị của bạn.
+        zh_cjv: 请提高你设备的多媒体音量。
+        zh_cn: 请提高你设备的多媒体音量。
+        zh_tw: 請提高您的裝置的音量。
+    Label.SearchingForNearbyRobloxPlayers:
+      english_string: Searching for Nearby Roblox users
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: البحث عن مستخدمي Roblox القريبين
+        de_de: Suche nach Roblox-Benutzer:innen in deiner Nähe
+        es_es: Buscando a personas en Roblox que están cerca
+        fr_fr: Recherche de participants Roblox à proximité
+        id_id: Mencari Pengguna Roblox di Sekitar
+        it_it: Ricerca di utenti Roblox nelle vicinanze
+        ja_jp: 近くのRobloxユーザーを探しています
+        ko_kr: 근처에 있는 Roblox 사용자 찾기
+        pl_pl: Szukanie użytkowników platformy Roblox w pobliżu
+        pt_br: Procurando por pessoas da Roblox que estão perto de você
+        ru_ru: Поиск игроков Roblox поблизости
+        th_th: การค้นหาผู้ใช้ Roblox ที่อยู่ในบริเวณใกล้เคียง
+        tr_tr: Yakınındaki Roblox kullanıcıları aranıyor
+        vi_vn: Tìm kiếm người chơi Roblox Ở Gần
+        zh_cjv: 正在搜索附近的罗布乐思用户
+        zh_cn: 正在搜索附近的 Roblox 用户
+        zh_tw: 正在搜尋附近的 Roblox 使用者
+    Label.Start:
+      english_string: Start Friending
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: بدء الصداقة
+        de_de: Freundessuche starten
+        es_es: Hacer amigos
+        fr_fr: Commencer à trouver des amis
+        id_id: Mulai Berteman
+        it_it: Inizia a fare amicizie
+        ja_jp: 友達になる
+        ko_kr: 친구 사귀기 시작
+        pl_pl: Zacznij nawiązywać znajomości
+        pt_br: Comece a adicionar amizades
+        ru_ru: Начать добавление в друзья
+        th_th: เริ่มการเป็นเพื่อน
+        tr_tr: Arkadaşlık Etmeye Başla
+        vi_vn: Bắt Đầu Kết Bạn
+        zh_cjv: 开始连接好友
+        zh_cn: 开始连接好友
+        zh_tw: 開始結交好友
+    Label.ViewProfile:
+      english_string: View Profile
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: عرض الملف الشخصي
+        de_de: Profil ansehen
+        es_es: Ver perfil
+        fr_fr: Voir le profil
+        id_id: Lihat Profil
+        it_it: Visualizza profilo
+        ja_jp: プロフィールを表示
+        ko_kr: 프로필 보기
+        pl_pl: Wyświetl profil
+        pt_br: Ver perfil
+        ru_ru: Просмотреть профиль
+        th_th: ดูโปรไฟล์
+        tr_tr: Profili Görüntüle
+        vi_vn: Xem Hồ Sơ
+        zh_cjv: 查看个人资料
+        zh_cn: 查看个人资料
+        zh_tw: 檢視個人檔案
+  UniversalFriender:
+    Action.SearchByUsername:
+      english_string: Search by Username
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: البحث عن طريق اسم المستخدم
+        de_de: Suche nach Benutzername
+        es_es: Búsqueda por nombre de usuario
+        fr_fr: Rechercher par nom d'utilisateur
+        id_id: Cari dengan Nama Pengguna
+        it_it: Cerca per nome utente
+        ja_jp: ユーザーネームでサーチ
+        ko_kr: 사용자 이름으로 검색
+        pl_pl: Wyszukaj po nazwie użytkownika
+        pt_br: Pesquisar por nome de usuário
+        ru_ru: Искать по имени пользователя
+        th_th: ค้นหาโดยใช้ชื่อผู้ใช้
+        tr_tr: Kullanıcı Adına Göre Ara
+        vi_vn: Tìm Theo Tên Tài Khoản
+        zh_cjv: 按用户名搜索
+        zh_cn: 按用户名搜索
+        zh_tw: 按使用者名稱搜尋
+    Action.SearchFriends:
+      english_string: Search Friends
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: ابحث عن الأصدقاء
+        de_de: Freund:innen suchen
+        es_es: Buscar amigos
+        fr_fr: Rechercher des amis
+        id_id: Cari Teman
+        it_it: Cerca amici
+        ja_jp: 友達をサーチ
+        ko_kr: 친구 검색
+        pl_pl: Wyszukaj znajomych
+        pt_br: Pesquisar amizades
+        ru_ru: Искать друзей
+        th_th: ค้นหาเพื่อน
+        tr_tr: Arkadaşları Ara
+        vi_vn: Tìm Bạn Bè
+        zh_cjv: 搜索好友
+        zh_cn: 搜索好友
+        zh_tw: 搜尋好友
+    Label.AddFriends:
+      english_string: Add Friends
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: إضافة أصدقاء
+        de_de: Hinzufügen
+        es_es: Añadir amigos
+        fr_fr: Ajouter des amis
+        id_id: Tambahkan Teman
+        it_it: Aggiungi amici
+        ja_jp: 友達を追加
+        ko_kr: 친구 추가
+        pl_pl: Dodaj znajomych
+        pt_br: Adicionar amizades
+        ru_ru: Добавить друзей
+        th_th: เพิ่มเพื่อน
+        tr_tr: Arkadaş Ekle
+        vi_vn: Thêm Bạn Bè
+        zh_cjv: 添加好友
+        zh_cn: 添加好友
+        zh_tw: 新增好友
+    Label.Contacts:
+      english_string: Contacts
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: جهات
+        de_de: Kontakte
+        es_es: Contactos
+        fr_fr: Contacts
+        id_id: Kontak
+        it_it: Contatti
+        ja_jp: 連絡先リスト
+        ko_kr: 연락처
+        pl_pl: Kontakty
+        pt_br: Contatos
+        ru_ru: Контакты
+        th_th: รายชื่อผู้ติดต่อ
+        tr_tr: Rehber
+        vi_vn: Liên Hệ
+        zh_cjv: 联系人
+        zh_cn: 联系人
+        zh_tw: 聯絡人
+    Label.Nearby:
+      english_string: Nearby
+      description: |-
+        Created by <Unknown>
+        Modified by czhang@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: قريب
+        de_de: In der Nähe
+        es_es: Cerca
+        fr_fr: Proche
+        id_id: Sekitar
+        it_it: Nelle vicinanze
+        ja_jp: 周辺
+        ko_kr: 주변 사용자 찾기
+        pl_pl: W pobliżu
+        pt_br: Por perto
+        ru_ru: Рядом
+        th_th: บริเวณใกล้เคียง
+        tr_tr: Yakınlarında
+        vi_vn: Gần Đây
+        zh_cjv: 附近
+        zh_cn: 附近
+        zh_tw: 附近
+    Label.Requests:
+      english_string: Requests
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: الطلبات
+        de_de: Anfragen
+        es_es: Solicitudes
+        fr_fr: Demandes
+        id_id: Permintaan
+        it_it: Richieste
+        ja_jp: リクエスト
+        ko_kr: 요청
+        pl_pl: Prośby
+        pt_br: Solicitações
+        ru_ru: Запросы
+        th_th: คำขอ
+        tr_tr: Talepler
+        vi_vn: Yêu Cầu
+        zh_cjv: 请求
+        zh_cn: 请求
+        zh_tw: 請求

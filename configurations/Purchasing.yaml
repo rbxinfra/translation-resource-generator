@@ -1,0 +1,767 @@
+name: Purchasing
+resources:
+  RedeemGameCard:
+    Response.RedeemGiftCardCurrencyCodeNotMatchV2:
+      english_string: Gift card currency must match your account location. You can
+        review your account location in Settings. For any further issues, please contact
+        {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}.
+      description: |-
+        Gift card currency must match your account location. You can review your account location in Settings. For any further issues, please contact {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}.
+        Created by lxie@roblox.com
+      translations:
+        ar_001: لا بد أن تتطابق عملة بطاقة الهدية مع الموقع المحدد في حسابك. يمكنك
+          مراجعة موقع حسابك في الإعدادات. إذا كان لديك أيّ مشاكل أخرى، يرجى الاتصال
+          بفريق الدعم {robloxSupportLinkStart}Roblox.com/Support{robloxSupportLinkEnd}.
+        de_de: Die Geschenkkartenwährung muss deinem Kontostandort entsprechen. Du
+          kannst den Standort deines Kontos in den Einstellungen überprüfen. Bei weiteren
+          Problemen, kontaktiere bitte {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}.
+        es_es: La divisa de la tarjeta regalo debe coincidir con la ubicación de tu
+          cuenta. Puedes revisar la ubicación de tu cuenta en Configuración. Para
+          cualquier otro problema, ponte en contacto con {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}.
+        fr_fr: La devise de la carte-cadeau doit correspondre à la domiciliation de
+          ton compte. Tu peux vérifier le lieu de ton compte dans les paramètres.
+          Pour toute autre question, contacter {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}.
+        id_id: Mata uang gift card harus sesuai dengan lokasi akunmu. Kamu dapat me-review
+          lokasi akunmu di Pengaturan. Untuk masalah lainnya, hubungi {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}.
+        it_it: La valuta della carta regalo deve corrispondere al luogo del tuo conto.
+          Puoi rivedere la posizione del tuo conto nelle Impostazioni. Per ulteriori
+          problemi, si prega di contattare {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}.
+        ja_jp: ギフトカードの通貨はアカウントの場所と一致している必要があります。設定でアカウントの場所を確認できます。問題がある場合は、 {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}
+          にお問い合わせください。
+        ko_kr: 기프트 카드 통화는 계정의 위치와 일치해야 합니다. 설정 메뉴에서 계정의 위치를 확인할 수 있습니다. 추가적인 문제가 발생할
+          경우 {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}에 문의하세요.
+        pl_pl: Waluta karty podarunkowej musi być zgodna z lokalizacją konta. Informacje
+          na temat lokalizacji konta znajdziesz na ekranie Ustawienia. W przypadku
+          wystąpienia innych problemów skontaktuj się z nami za pośrednictwem witryny
+          {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}.
+        pt_br: A moeda do cartão presente deve coincidir com a localização da sua
+          conta. Você pode conferir a localização da sua conta nas Configurações.
+          Para quaisquer problemas adicionais, entre em contato com {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}.
+        ru_ru: Валюта подарочной карты должна совпадать с местоположением твоего аккаунта.
+          Ты можешь просмотреть местоположение своего аккаунта в настройках. По любым
+          вопросам обращайся в Службу поддержки {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}.
+        th_th: สกุลเงินของบัตรของขวัญต้องตรงกับตำแหน่งที่ตั้งของบัญชีของคุณ คุณสามารถตรวจสอบตำแหน่งที่ตั้งของบัญชีของคุณได้ในการตั้งค่า
+          หากมีปัญหาใดๆ เพิ่มเติม โปรดติดต่อ {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}
+        tr_tr: Hediye kartı para birimi, hesap konumunla eşleşmelidir. Hesap konumunu
+          Ayarlar'da inceleyebilirsin. Başka sorunlar için lütfen {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}
+          adresinden destek ile iletişime geç.
+        vi_vn: Đơn vị tiền tệ của thẻ quà tặng phải khớp với vị trí của tài khoản.
+          Bạn có thể xem lại vị trí của tài khoản trong phần Cài đặt. Nếu gặp bất
+          kỳ vấn đề nào khác, vui lòng liên hệ {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}.
+        zh_cjv: 礼品卡货币须与你帐户所在位置匹配。你可以在设置中查看你的帐户位置。如果还有更多疑问，请联系 {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}。
+        zh_cn: 礼品卡货币须与你帐户所在位置匹配。你可以在设置中查看你的帐户位置。如果还有更多疑问，请联系 {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}。
+        zh_tw: 禮品卡貨幣必須符合您的帳號位置。您可以在設定中檢視您的帳號位置。如有其他問題，請聯繫 {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}。
+  RobloxProducts:
+    Label.Robux:
+      english_string: Robux
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: Robux
+        de_de: Robux
+        es_es: Robux
+        fr_fr: Robux
+        id_id: Robux
+        it_it: Robux
+        ja_jp: Robux
+        ko_kr: Robux
+        pl_pl: Robuxy
+        pt_br: Robux
+        ru_ru: Robux
+        th_th: Robux
+        tr_tr: Robux
+        vi_vn: Robux
+        zh_cjv: 罗宝
+        zh_cn: Robux
+        zh_tw: Robux
+    Label.RobuxBalance:
+      english_string: 'Balance: {var1} Robux'
+      description: |-
+        Balance : [quantity] Robux
+        Created by <Unknown>
+        Modified by ptrethewey@roblox.com
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: 'الرصيد: {var1} روبكس'
+        de_de: 'Kontostand: {var1} Robux'
+        es_es: 'Saldo: {var1} Robux'
+        fr_fr: 'Solde : {var1} Robux'
+        id_id: 'Saldo: {var1} Robux'
+        it_it: 'Bilancio: {var1} Robux'
+        ja_jp: '残高: {var1} Robux'
+        ko_kr: '잔액: {var1} Robux'
+        pl_pl: 'Saldo Robuxów: {var1}'
+        pt_br: 'Saldo: {var1} Robux'
+        ru_ru: 'Баланс: {var1} Robux'
+        th_th: 'ยอดคงเหลือ: {var1} Robux'
+        tr_tr: 'Bakiye: {var1} Robux'
+        vi_vn: 'Số Dư: {var1} Robux'
+        zh_cjv: 余额：{var1} 罗宝
+        zh_cn: 余额：{var1} Robux
+        zh_tw: 餘額：{var1} Robux
+    Response.BillingUnavailableTryLater:
+      english_string: Billing service is currently unavailable. Please try again later.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: خدمة الفواتير غير متوفرة حاليا. الرجاء المحاولة مرة أخرى لاحقاً.
+        de_de: Zahlungsdienst ist derzeit nicht verfügbar. Bitte versuche es später
+          erneut.
+        es_es: El servicio de facturación no está disponible en este momento. Inténtalo
+          de nuevo más tarde.
+        fr_fr: Le service de facturation est actuellement indisponible. Réessaye plus
+          tard.
+        id_id: Layanan penagihan sedang tidak tersedia. Coba lagi nanti.
+        it_it: Il servizio di pagamento non è attualmente disponibile. Riprova più
+          tardi.
+        ja_jp: 請求サービスは現在利用できません。後でもう一度お試しください。
+        ko_kr: 결제 서비스를 현재 이용할 수 없습니다. 나중에 다시 시도하세요.
+        pl_pl: Obsługa rozliczeń jest obecnie niedostępna. Spróbuj ponownie później.
+        pt_br: O serviço de cobrança não está disponível no momento. Tente novamente
+          mais tarde.
+        ru_ru: В настоящее время сервис выставления счётов недоступен. Повтори попытку
+          позже.
+        th_th: ไม่สามารถใช้บริการเรียกเก็บเงินได้ในขณะนี้ โปรดลองอีกครั้งในภายหลัง
+        tr_tr: Faturalandırma hizmeti şu anda kullanılamıyor. Lütfen daha sonra tekrar
+          dene.
+        vi_vn: Dịch vụ chi trả hiện không hoạt động. Vui lòng thử lại sau.
+        zh_cjv: 账单服务目前不可用，请稍后重试。
+        zh_cn: 账单服务目前不可用，请稍后重试。
+        zh_tw: 帳務目前無法使用，請稍後再試。
+    Response.ExistingSubscription:
+      english_string: This Google Play account has already subscribed to Roblox Premium
+        on another Roblox account.
+      description: |-
+        Created by esauer@roblox.com
+        Modified by esauer@roblox.com
+        Created by esauer@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: حساب Google Play هذا قد اشترك بالفعل في حساب Roblox المميز على حساب
+          Roblox آخر.
+        de_de: Dieses Google Play-Konto hat Roblox-Premium bereits für ein anderes
+          Roblox-Konto abonniert.
+        es_es: Esta cuenta de Google Play ya se ha usado para suscribirse a Roblox
+          Premium u otra cuenta de Roblox.
+        fr_fr: Ce compte Google Play est déjà abonné à Roblox Premium sur un autre
+          compte Roblox.
+        id_id: Akun Google Play ini telah subscribe ke Roblox Premium dengan akun
+          Roblox yang lain.
+        it_it: Questo account Google Play è già associato a un altro account Roblox
+          con abbonamento Roblox Premium.
+        ja_jp: このGoogle Playアカウントは、すでに他のRobloxアカウントでRoblox プレミアムの定期購入をしています。
+        ko_kr: 이 Google Play 계정은 다른 Roblox 계정에서 이미 Roblox Premium에 가입되어 있어요.
+        pl_pl: Do tego konta Google Play przypisano już subskrypcję Roblox Premium
+          na innym koncie Roblox.
+        pt_br: Esta conta do Google Play já assinou Roblox Premium usando outra conta
+          da Roblox.
+        ru_ru: У данного аккаунта Google Play уже есть подписка Roblox Premium для
+          другого аккаунта Roblox.
+        th_th: บัญชี Google Play นี้ได้สมัครสมาชิก Roblox Premium ในบัญชี Roblox อื่นแล้ว
+        tr_tr: Bu Google Play hesabı zaten başka bir Roblox hesabında Roblox Premium'a
+          abone oldu.
+        vi_vn: Tài khoản Google Play này đã đăng ký Roblox Premium trên một tài khoản
+          Roblox khác rồi.
+        zh_cjv: 这个 Google Play 帐户已在另一个罗布乐思帐户上订阅了罗布乐思 Premium。
+        zh_cn: 这个 Google Play 帐户已在另一个 Roblox 帐户上订阅了 Roblox Premium。
+        zh_tw: 此 Google Play 帳號已在其他帳號訂閱 Roblox Premium。
+    Response.NeedLogin:
+      english_string: Please login and try again.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: الرجاء تسجيل الدخول والمحاولة مرة أخرى.
+        de_de: Melde dich ein und versuch es erneut.
+        es_es: Inicia sesión e inténtalo de nuevo.
+        fr_fr: Essaye de te connecter encore une fois.
+        id_id: Log in lalu coba lagi.
+        it_it: Esegui l'accesso e riprova.
+        ja_jp: ログインしてやり直してください。
+        ko_kr: 로그인해 다시 시도하세요.
+        pl_pl: Zaloguj się i spróbuj ponownie.
+        pt_br: Entre em sua conta e tente novamente.
+        ru_ru: Войди и повтори попытку.
+        th_th: โปรดลงชื่อเข้าใช้แล้วลองอีกครั้ง
+        tr_tr: Lütfen giriş yapıp tekrar dene.
+        vi_vn: Vui lòng đăng nhập và thử lại.
+        zh_cjv: 请登录并重试。
+        zh_cn: 请登录并重试。
+        zh_tw: 請登入後重新嘗試。
+    Response.PendingPurchaseWithUser:
+      english_string: 'There is a pending Purchase with Roblox User Name. Please login
+        with User Name: {var1}'
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: 'هناك عملية شراء معلقة مع اسم مستخدم Roblox. الرجاء تسجيل الدخول باسم
+          المستخدم: {var1}'
+        de_de: 'Ein Kauf für diesen Roblox-Benutzernamen steht noch aus. Bitte melde
+          dich mit diesem Benutzernamen an: {var1}'
+        es_es: 'Hay una compra pendiente con el nombre de usuario de Roblox. Inicia
+          sesión con el nombre de usuario: {var1}'
+        fr_fr: 'Un achat en attente est associé au nom d''utilisateur Roblox. Connecte-toi
+          avec le nom d''utilisateur : {var1}'
+        id_id: 'Ada pembelian pending dengan nama pengguna Roblox. Log in dengan nama
+          pengguna: {var1}'
+        it_it: 'C''è un acquisto in sospeso con il nome utente Roblox. Accedi con
+          il nome utente: {var1}'
+        ja_jp: 'Robloxユーザーネームの購入で承認待ちのものがあります。以下のユーザーネームでログインしてください: {var1}'
+        ko_kr: Roblox 사용자 이름 {var1}(으)로 완료하지 못한 구매가 있습니다. 해당 사용자 이름으로 로그인하세요.
+        pl_pl: Użytkownik platformy Roblox nie sfinalizował zakupu. Zaloguj się na
+          konto użytkownika {var1}
+        pt_br: 'Há uma compra pendente com o usuário Roblox. Entre na conta com o
+          nome de usuário: {var1}'
+        ru_ru: 'Покупка пользователя Roblox находится в обработке. Войди, используя
+          имя пользователя: {var1}'
+        th_th: ผู้ใช้ Roblox ที่ใช้ชื่อ {var1} มีการซื้อที่รอดำเนินการอยู่ โปรดลงชื่อเข้าใช้ด้วยชื่อผู้ใช้นั้น
+        tr_tr: Roblox Kullanıcı Adıyla bekleyen bir Satın Alım işlemi var. Lütfen
+          {var1} Kullanıcı Adıyla giriş yap.
+        vi_vn: 'Có một giao dịch mua đang chờ xử lý với Tên Người Dùng Roblox. Vui
+          lòng đăng nhập bằng Tên Người Dùng: {var1}'
+        zh_cjv: 有一项以罗布乐思用户名为名义的待处理购买。请使用以下用户名登录：{var1}
+        zh_cn: 有一项以 Roblox 用户名为名义的待处理购买。请使用以下用户名登录：{var1}
+        zh_tw: 有以 Roblox 使用者名稱為名義的待處理購買。請以此使用者名稱登入：{var1}
+    Response.PurchaseCancelled:
+      english_string: You have cancelled this purchase. Need help? Please contact
+        {var1}.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: لقد ألغت عملية الشراء هذه. بحاجة إلى مساعدة؟ الرجاء الاتصال بـ {var1}.
+        de_de: Du hast diesen Kauf abgebrochen. Benötigst du Hilfe? Bitte wende dich
+          an {var1}.
+        es_es: Cancelaste esta compra. ¿Necesitas ayuda? Ponte en contacto con {var1}.
+        fr_fr: 'Tu as annulé cet achat. Besoin d''aide ? Contacte-nous à l''adresse :
+          {var1}.'
+        id_id: Kamu telah membatalkan pembelian ini. Perlu bantuan? Hubungi {var1}.
+        it_it: Hai annullato questo acquisto. Hai bisogno di aiuto? Contatta {var1}.
+        ja_jp: この購入をキャンセルしました。ヘルプが必要な場合は、{var1}にお問い合わせください。
+        ko_kr: 구매를 취소하셨습니다. 도움이 필요하시면 {var1}(으)로 문의하세요.
+        pl_pl: 'Ten zakup został anulowany. Potrzebujesz pomocy? Skontaktuj się: {var1}.'
+        pt_br: Você cancelou esta compra. Precisa de ajuda? Contate {var1}.
+        ru_ru: Покупка отменена. Требуется помощь? Обратись по адресу {var1}.
+        th_th: คุณได้ยกเลิกการซื้อนี้แล้ว หากต้องการความช่วยเหลือ โปรดติดต่อ{var1}
+        tr_tr: Bu satın alım işlemini iptal ettin. Yardıma mı ihtiyacın var? Lütfen
+          {var1} ile iletişime geç.
+        vi_vn: Bạn đã hủy bỏ giao dịch mua này. Nếu cần giúp đỡ, xin hãy liên hệ {var1}.
+        zh_cjv: 你已取消此次购买。需要帮助？请联系 {var1}。
+        zh_cn: 你已取消此次购买。需要帮助？请联系 {var1}。
+        zh_tw: 您已取消此購買。若需協助，請聯絡 {var1}。
+    Response.PurchaseCancelledV2:
+      english_string: You have cancelled this purchase.
+      description: |-
+        Created by esauer@roblox.com
+        Modified by esauer@roblox.com
+        Created by esauer@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: لقد قمت بإلغاء هذا الشراء.
+        de_de: Du hast diesen Kauf storniert.
+        es_es: Cancelaste esta transacción.
+        fr_fr: Vous avez annulé cet achat.
+        id_id: Kamu telah membatalkan pembelian ini.
+        it_it: Hai annullato questo acquisto.
+        ja_jp: この購入をキャンセルしました。
+        ko_kr: 구매를 취소하셨어요.
+        pl_pl: Ten zakup został anulowany.
+        pt_br: Você cancelou esta compra.
+        ru_ru: Покупка отменена.
+        th_th: คุณได้ยกเลิกการซื้อนี้แล้ว
+        tr_tr: Bu satın alım işlemini iptal ettin.
+        vi_vn: Bạn đã hủy bỏ giao dịch mua này.
+        zh_cjv: 你已取消此购买。
+        zh_cn: 你已取消此次购买。
+        zh_tw: 您已取消此購買。
+    Response.PurchaseInProcess:
+      english_string: Purchase in process, please try again later.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: الشراء قيد التشغيل، الرجاء المحاولة مرة أخرى لاحقاً.
+        de_de: Kaufvorgang läuft. Bitte versuche es später erneut.
+        es_es: Se está procesando la compra, inténtalo de nuevo más tarde.
+        fr_fr: Achat en cours de traitement. Réessaye plus tard.
+        id_id: Pembelian sedang dalam progres. Coba lagi nanti.
+        it_it: Acquisto in corso, riprova più tardi.
+        ja_jp: 購入処理中です。後でもう一度お試しください。
+        ko_kr: 구매 진행 중. 나중에 다시 시도하세요.
+        pl_pl: Zakup w toku. Spróbuj ponownie później.
+        pt_br: Compra em andamento. Tente novamente mais tarde.
+        ru_ru: Идёт процесс покупки, повтори попытку позже.
+        th_th: การซื้ออยู่ระหว่างการประมวลผล โปรดลองอีกครั้งในภายหลัง
+        tr_tr: Satın alım işlemi devam ediyor. Lütfen daha sonra tekrar dene.
+        vi_vn: Giao dịch mua đang được xử lý, vui lòng thử lại sau.
+        zh_cjv: 购买处理中，请稍后重试。
+        zh_cn: 购买处理中，请稍后重试。
+        zh_tw: 購買正在處理，請稍後再試。
+    Response.PurchaseIncomplete:
+      english_string: This purchase was not completed.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: لم تكتمل عملية الشراء هذه.
+        de_de: Dieser Kauf wurde nicht abgeschlossen.
+        es_es: La compra no ha finalizado.
+        fr_fr: Cet achat n'a pas été finalisé.
+        id_id: Pembelian ini belum selesai.
+        it_it: Questo acquisto non è stato completato.
+        ja_jp: この購入は完了していません。
+        ko_kr: 이 구매가 완료되지 않았어요.
+        pl_pl: Ten zakup nie został sfinalizowany.
+        pt_br: Esta compra não foi concluída.
+        ru_ru: Покупка не завершена.
+        th_th: ไม่สามารถทำการซื้อนี้ให้เสร็จสมบูรณ์ได้
+        tr_tr: Bu satın alım işlemi tamamlanmadı.
+        vi_vn: Giao dịch mua này chưa được hoàn thành.
+        zh_cjv: 未完成此购买。
+        zh_cn: 未完成此购买。
+        zh_tw: 購買未完成。
+    Response.PurchaseIsEmulator:
+      english_string: Purchase not supported. Need help? Please contact {var1}.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: الشراء غير مدعوم. بحاجة إلى مساعدة؟ الرجاء الاتصال بـ {var1}.
+        de_de: Kauf wird nicht unterstützt. Benötigst du Hilfe? Bitte wende dich an
+          {var1}.
+        es_es: Compra no compatible. ¿Necesitas ayuda? Ponte en contacto con {var1}.
+        fr_fr: 'Achat non pris en charge. Besoin d''aide ? Contacte-nous à l''adresse :
+          {var1}.'
+        id_id: Pembelian tidak didukung. Perlu bantuan? Hubungi {var1}.
+        it_it: Acquisto non supportato. Hai bisogno di aiuto? Contatta {var1}.
+        ja_jp: 購入に対応していません。ヘルプが必要な場合は {var1} にお問い合わせください。
+        ko_kr: 지원되지 않는 구매입니다. 도움이 필요하시면 {var1}(으)로 문의하세요.
+        pl_pl: 'Zakup nie jest obsługiwany. Potrzebujesz pomocy? Skontaktuj się: {var1}.'
+        pt_br: Sem suporte à compra. Precisa de ajuda? Contate {var1}.
+        ru_ru: Покупка не поддерживается. Требуется помощь? Обратись по адресу {var1}.
+        th_th: การซื้อไม่ได้รับการรองรับ หากต้องการความช่วยเหลือ โปรดติดต่อ{var1}
+        tr_tr: Satın alım desteklenmiyor. Yardıma mı ihtiyacın var? Lütfen {var1}
+          ile iletişime geç.
+        vi_vn: Giao dịch mua này không được hỗ trợ. Nếu bạn cần trợ giúp, xin hãy
+          liên hệ {var1}.
+        zh_cjv: 不支持购买，需要帮助？请联系 {var1}。
+        zh_cn: 不支持购买，需要帮助？请联系 {var1}。
+        zh_tw: 未支援購買。若需協助，請聯絡{var1}。
+    Response.PurchaseIsEmulatorV2:
+      english_string: Purchase not supported.
+      description: |-
+        Created by esauer@roblox.com
+        Modified by esauer@roblox.com
+        Created by esauer@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: الشراء غير مدعوم.
+        de_de: Kauf nicht unterstützt.
+        es_es: Compra no compatible.
+        fr_fr: Achat non pris en charge.
+        id_id: Pembelian tidak didukung.
+        it_it: Acquisto non supportato.
+        ja_jp: 購入に対応していません。
+        ko_kr: 구매가 지원되지 않습니다.
+        pl_pl: Zakup nie jest obsługiwany.
+        pt_br: Compra não suportada.
+        ru_ru: Покупка не поддерживается.
+        th_th: ไม่รองรับการซื้อ
+        tr_tr: Satın alım desteklenmiyor.
+        vi_vn: Giao dịch mua không được hỗ trợ.
+        zh_cjv: 不支持购买。
+        zh_cn: 不支持购买。
+        zh_tw: 不支援此購買。
+    Response.PurchaseNotCompleted:
+      english_string: This purchase was not completed. Need help? Please contact {var1}.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: لم تكتمل عملية الشراء هذه. هل تحتاج إلى مساعدة؟ الرجاء الاتصال بـ
+          {var1}.
+        de_de: Dieser Kauf wurde nicht abgeschlossen. Benötigst du Hilfe? Bitte wende
+          dich an {var1}.
+        es_es: Esta compra no se ha completado. ¿Necesitas ayuda? Ponte en contacto
+          con {var1}.
+        fr_fr: 'Cet achat n''a pas été finalisé. Besoin d''aide ? Contacte-nous à
+          l''adresse : {var1}.'
+        id_id: Pembelian ini belum selesai. Perlu bantuan? Hubungi {var1}.
+        it_it: Questo acquisto non è stato completato. Hai bisogno di aiuto? Contatta
+          {var1}.
+        ja_jp: この購入は完了していません。ヘルプが必要な場合は、{var1}にお問い合わせください。
+        ko_kr: 구매를 완료하지 못했습니다. 도움이 필요하시면 {var1}(으)로 문의하세요.
+        pl_pl: 'Ten zakup nie został sfinalizowany. Potrzebujesz pomocy? Skontaktuj
+          się: {var1}.'
+        pt_br: Esta compra não foi concluída. Precisa de ajuda? Contate {var1}.
+        ru_ru: Покупка не завершена. Требуется помощь? Обратись по адресу {var1}.
+        th_th: ไม่สามารถทำการซื้อนี้ให้เสร็จสมบูรณ์ได้ หากต้องการความช่วยเหลือ โปรดติดต่อ{var1}
+        tr_tr: Bu satın alım tamamlanmadı. Yardıma mı ihtiyacın var? Lütfen {var1}
+          ile iletişime geç.
+        vi_vn: Giao dịch mua này chưa hoàn thành. Nếu bạn cần giúp đỡ, xin hãy liên
+          hệ {var1}.
+        zh_cjv: 此次购买未完成。需要帮助？请联系 {var1}。
+        zh_cn: 此次购买未完成。需要帮助？请联系 {var1}。
+        zh_tw: 此購買未完成。若需協助，請聯絡 {var1}。
+    Response.PurchaseNotCompletedV2:
+      english_string: This purchase was not completed.
+      description: |-
+        Created by esauer@roblox.com
+        Modified by esauer@roblox.com
+        Created by esauer@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: لم تكتمل عملية الشراء هذه.
+        de_de: Dieser Kauf wurde nicht abgeschlossen.
+        es_es: La compra no ha finalizado.
+        fr_fr: Cet achat n'a pas été finalisé.
+        id_id: Pembelian ini belum selesai.
+        it_it: Questo acquisto non è stato completato.
+        ja_jp: この購入は完了していません。
+        ko_kr: 구매를 완료하지 못했어요.
+        pl_pl: Ten zakup nie został sfinalizowany.
+        pt_br: Esta compra não foi concluída.
+        ru_ru: Покупка не завершена.
+        th_th: ไม่สามารถทำการซื้อนี้ให้เสร็จสมบูรณ์ได้
+        tr_tr: Bu satın alım işlemi tamamlanmadı.
+        vi_vn: Giao dịch mua này chưa được hoàn thành.
+        zh_cjv: 未完成此购买。
+        zh_cn: 未完成此购买。
+        zh_tw: 購買未完成。
+    Response.PurchaseSetupGooglePlay:
+      english_string: Please setup Google Play Store to make purchases.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: الرجاء إعداد متجر Google Play لإجراء عمليات الشراء.
+        de_de: Bitte konfiguriere Google Play Store, um Käufe tätigen zu können.
+        es_es: Configura Google Play Store para realizar compras.
+        fr_fr: Il faut configurer le Google Play Store pour effectuer des achats.
+        id_id: Atur Google Play Store untuk melakukan pembelian.
+        it_it: Imposta Google Play Store in modo che sia possibile effettuare acquisti.
+        ja_jp: 購入を行うには、Google Playストアの設定を行ってください。
+        ko_kr: 구매하려면 Google Play 스토어를 설정하세요.
+        pl_pl: Aby móc dokonywać zakupów, skonfiguruj konto w aplikacji sklepu Google
+          Play.
+        pt_br: Configure seu Google Play para fazer compras.
+        ru_ru: Установи Google Play Store, чтобы совершать покупки.
+        th_th: โปรดตั้งค่า Google Play Store เพื่อทำการซื้อ
+        tr_tr: Satın alım yapabilmek için lütfen Google Play Store'u ayarla.
+        vi_vn: Vui lòng thiết lập Cửa Hàng Google Play để có thể thực hiện giao dịch
+          mua.
+        zh_cjv: 若要购买，请先设置 Google Play 商店。
+        zh_cn: 若要购买，请先设置 Google Play 商店。
+        zh_tw: 若要購買，請先設定 Google Play 商店。
+    Response.PurchaseSuccessfulAndroid:
+      english_string: Purchase successful, your product will be delivered shortly.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: تم الشراء بنجاح، سيتم تسليم المنتج الخاص بك قريبا.
+        de_de: Kauf erfolgreich. Du erhältst dein Item demnächst.
+        es_es: Se realizó la compra. Tu producto se entragará en breve.
+        fr_fr: Achat effectué, ton article sera livré très bientôt.
+        id_id: Pembelian berhasil. Produk kamu akan dapat segera diakses.
+        it_it: Acquisto riuscito, il tuo prodotto sarà consegnato a breve.
+        ja_jp: 購入が完了しました。製品はまもなく送信されます。
+        ko_kr: 구매 완료. 구매한 제품이 곧 지급됩니다.
+        pl_pl: Zakup udany. Wkrótce otrzymasz produkt.
+        pt_br: Compra bem-sucedida. Seu produto será entregue em breve.
+        ru_ru: Покупка успешно завершена, продукт скоро будет доставлен.
+        th_th: ทำการซื้อสำเร็จเรียบร้อยแล้ว สินค้าของคุณจะถูกส่งในไม่ช้า
+        tr_tr: Satın alım işlemi başarıyla tamamlandı, ürünün kısa sürede teslim edilecek.
+        vi_vn: Giao dịch mua thành công, sản phẩm của bạn sẽ sớm được giao.
+        zh_cjv: 购买成功，你订购的产品将很快送达。
+        zh_cn: 购买成功，你订购的产品将很快送达。
+        zh_tw: 購買成功，您的產品即將抵達。
+    Response.PurchaseSuccessfulBodyAndroid:
+      english_string: The bonus item has been added to your inventory.
+      description: Android successful purchase confirmation body
+      translations:
+        ar_001: تم إضافة عنصر المكافأة إلى مقتنياتك.
+        de_de: Der Bonusartikel wurde deinem Inventar hinzugefügt.
+        es_es: El objeto de bonificación se añadió a tu inventario.
+        fr_fr: L'item en bonus a été ajouté à ton inventaire.
+        id_id: Item bonus telah ditambahkan ke inventaris kamu.
+        it_it: L'articolo bonus è stato aggiunto al tuo inventario.
+        ja_jp: ボーナスアイテムを持ち物リストに追加しました。
+        ko_kr: 보너스 아이템이 인벤토리에 추가되었습니다.
+        pl_pl: Do wyposażenia dodano przedmiot w ramach premii.
+        pt_br: Este item foi adicionado ao seu inventário.
+        ru_ru: Бонусный предмет добавлен в инвентарь.
+        th_th: เพิ่มไอเท็มโบนัสไปยังคลังไอเท็มของคุณแล้ว
+        tr_tr: Bonus öğe, envanterine eklendi.
+        vi_vn: Vật phẩm thưởng đã được thêm vào kho của bạn.
+        zh_cjv: 额外道具已添加至你的道具栏。
+        zh_cn: 额外道具已添加至你的道具栏。
+        zh_tw: 額外獎勵道具已新增到道具欄。
+    Response.PurchaseSuccessfulTitleAndroid:
+      english_string: Purchase successful
+      description: Android successful purchase confirmation title
+      translations:
+        ar_001: تم الشراء بنجاح
+        de_de: Kauf erfolgreich
+        es_es: Compra realizada correctamente
+        fr_fr: Achat réussi
+        id_id: Pembelian berhasil
+        it_it: Acquisto riuscito
+        ja_jp: 購入完了
+        ko_kr: 구매 완료
+        pl_pl: Dokonano zakupu
+        pt_br: Compra bem sucedida
+        ru_ru: Успешная покупка
+        th_th: การซื้อสำเร็จเรียบร้อยแล้ว
+        tr_tr: Satın alım başarılı
+        vi_vn: Mua thành công
+        zh_cjv: 购买成功
+        zh_cn: 购买成功
+        zh_tw: 購買成功
+    Response.PurchaseUpdateAndroidVersion:
+      english_string: Please upgrade your Android Version to allow Purchasing.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: الرجاء ترقية إصدار الأندرويد الخاص بك للسماح بالشراء.
+        de_de: Bitte aktualisiere deine Android-Version, um Käufe tätigen zu können.
+        es_es: Actualiza tu versión de Android para permitir realizar compras.
+        fr_fr: Il faut mettre à jour ta version d'Android afin d'autoriser les achats.
+        id_id: Upgrade Android untuk melakukan pembelian.
+        it_it: Aggiorna la tua versione Android per abilitare gli acquisti.
+        ja_jp: 購入できるようにするには、Androidのバージョンをアップグレードしてください。
+        ko_kr: 구매하려면 Android 버전을 업그레이드하세요.
+        pl_pl: Aby zezwolić na zakupy, zaktualizuj system operacyjny Android do najnowszej
+          wersji.
+        pt_br: Faça a atualização da sua versão do Android para permitir compras.
+        ru_ru: Обнови свою версию Android, чтобы разрешить покупки.
+        th_th: โปรดอัปเกรดเวอร์ชัน Android ของคุณเพื่อให้สามารถทำการซื้อได้
+        tr_tr: Satın alıma izin vermek için lütfen Android Sürümünü yükselt.
+        vi_vn: Vui lòng nâng cấp Phiên Bản Android của bạn để cho phép Giao Dịch Mua.
+        zh_cjv: 若要购买，请先升级你的 Android 版本。
+        zh_cn: 若要购买，请先升级你的 Android 版本。
+        zh_tw: 若要購買，請先升級您的 Android 版本。
+    Response.PurchaseValidateLimit:
+      english_string: Sorry, your transaction cannot be completed at this time as
+        you have reached a transaction limit. Need help? Please contact {var1}.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: عذراً، لا يمكن إكمال المعاملة الخاصة بك في هذا الوقت حيث وصلت إلى
+          حد المعاملة. تحتاج إلى مساعدة؟ الرجاء الاتصال بـ {var1}.
+        de_de: Deine Transaktion kann derzeit leider nicht durchgeführt werden, da
+          du ein Transaktionslimit erreicht hast. Benötigst du Hilfe? Bitte wende
+          dich an {var1}.
+        es_es: Lo sentimos, tu transacción no puede completarse en este momento porque
+          has alcanzado el límite de transacciones. ¿Necesitas ayuda? Ponte en contacto
+          con {var1}.
+        fr_fr: 'Désolé, ta transaction n''a pas pu être finalisée, parce que tu as
+          atteint la limite de transactions. Besoin d''aide ? Contacte-nous à l''adresse
+          suivante : {var1}.'
+        id_id: Maaf, transaksi kamu tidak dapat diselesaikan pada saat ini karena
+          kamu telah mencapai batas transaksi. Perlu bantuan? Hubungi {var1}.
+        it_it: Siamo spiacenti, la tua transazione non può essere completata in questo
+          momento in quanto hai raggiunto un limite di transazione. Hai bisogno di
+          aiuto? Contatta {var1}.
+        ja_jp: 申し訳ありませんが、取引の上限に達しているため、現在お取引を完了できません。ヘルプが必要な場合は、{var1}にお問い合わせください。
+        ko_kr: 죄송합니다. 거래 한도에 도달하여 지금은 거래를 완료할 수 없습니다. 도움이 필요하시면 {var1}(으)로 문의하세요.
+        pl_pl: 'Obecnie nie można sfinalizować transakcji z powodu przekroczonego
+          limitu. Potrzebujesz pomocy? Skontaktuj się: {var1}.'
+        pt_br: Infelizmente, sua transação não pode ser completada no momento pois
+          você alcançou o limite de transação. Precisa de ajuda? Contate {var1}.
+        ru_ru: Эта транзакция сейчас не может быть завершена, так как достигнут лимит
+          транзакций. Требуется помощь? Обратись по адресу {var1}.
+        th_th: ขออภัย ไม่สามารถทำธุรกรรมของคุณให้เสร็จสิ้นได้ในตอนนี้เนื่องจากคุณมีธุรกรรมถึงจำนวนสูงสุดที่กำหนดไว้แล้ว
+          หากต้องการความช่วยเหลือ โปรดติดต่อ{var1}
+        tr_tr: Üzgünüz, satın alım sınırına ulaştığın için işlemin şu anda tamamlanamıyor.
+          Yardıma mı ihtiyacın var? Lütfen {var1} ile iletişime geç.
+        vi_vn: Rất tiếc, giao dịch của bạn không thể hoàn thành ở thời điểm này vì
+          bạn đã đạt giới hạn giao dịch. Nếu bạn cần trợ giúp, xin hãy liên hệ {var1}.
+        zh_cjv: 抱歉，由于你已达到交易上限，此时无法完成你的交易。需要帮助？请联系 {var1}。
+        zh_cn: 抱歉，由于你已达到交易上限，此时无法完成你的交易。需要帮助？请联系 {var1}。
+        zh_tw: 對不起，您已達到交易上限，目前無法完成您的交易。若需協助，請聯絡 {var1}。
+    Response.PurchaseValidateLimitV2:
+      english_string: Sorry, your transaction cannot be completed at this time as
+        you have reached a transaction limit.
+      description: |-
+        Created by esauer@roblox.com
+        Modified by esauer@roblox.com
+        Created by esauer@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: عذراً، لا يمكن إكمال المعاملة الخاصة بك في هذا الوقت حيث أنك وصلت
+          إلى حد المعاملة.
+        de_de: Deine Transaktion kann derzeit leider nicht durchgeführt werden, da
+          du ein Transaktionslimit erreicht hast.
+        es_es: Lo sentimos, tu transacción no puede completarse en este momento porque
+          has alcanzado el número límite de transacciones.
+        fr_fr: La limite des transactions a été atteinte et ta transaction ne peut
+          être complétée pour le moment.
+        id_id: Maaf, transaksi kamu tidak dapat diselesaikan pada saat ini karena
+          akun kamu telah mencapai batas transaksi.
+        it_it: Siamo spiacenti, la transazione non può essere completata in questo
+          momento poiché hai raggiunto il limite massimo di transazioni.
+        ja_jp: 申し訳ありませんが、取引の上限に達しているため、現在取引を完了できません。ヘルプが必要な場合は、お問い合わせください。
+        ko_kr: 죄송합니다. 거래 한도에 도달하여 지금은 거래를 완료할 수 없습니다.
+        pl_pl: Obecnie nie można sfinalizować transakcji z powodu przekroczonego limitu.
+        pt_br: Infelizmente, sua transação não pode ser completada no momento, pois
+          você alcançou um limite de transação.
+        ru_ru: Транзакция не может быть в данный момент завершена, так как достигнут
+          лимит транзакций.
+        th_th: ขออภัย ไม่สามารถทำธุรกรรมของคุณให้เสร็จสิ้นได้ในตอนนี้เนื่องจากคุณมีธุรกรรมถึงจำนวนสูงสุดที่กำหนดไว้แล้ว
+        tr_tr: Üzgünüz, satın alım sınırına ulaştığın için işlemin şu anda tamamlanamıyor.
+        vi_vn: Rất tiếc, giao dịch của bạn không thể hoàn thành ở thời điểm này vì
+          bạn đã đạt giới hạn giao dịch.
+        zh_cjv: 抱歉，由于你已达到交易上限，目前无法完成你的交易。
+        zh_cn: 抱歉，由于你已达到交易上限，目前无法完成你的交易。
+        zh_tw: 對不起，您已達到交易上限，目前無法完成您的交易。
+    Response.PurchasingInvalidPurchase:
+      english_string: Sorry, your transaction could not be completed.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: عذراً، لا يمكن إكمال المعاملة الخاصة بك.
+        de_de: Deine Transaktion konnte leider nicht abgeschlossen werden.
+        es_es: Lo sentimos, no se pudo completar tu transacción.
+        fr_fr: Désolé, ta transaction n'a pas pu être finalisée.
+        id_id: Maaf, transaksi tidak dapat diselesaikan.
+        it_it: Siamo spiacenti, la transazione non è stata completata.
+        ja_jp: 申し訳ありませんが、取引を完了できませんでした。
+        ko_kr: 죄송합니다. 거래를 완료할 수 없습니다.
+        pl_pl: Nie można sfinalizować transakcji.
+        pt_br: Infelizmente, esta transação não pôde ser completada.
+        ru_ru: К сожалению, транзакция не может быть завершена.
+        th_th: ขออภัย ไม่สามารถทำธุรกรรมของคุณให้เสร็จสมบูรณ์ได้
+        tr_tr: Üzgünüz, işlemin tamamlanamadı.
+        vi_vn: Rất tiếc, giao dịch của bạn không thể hoàn thành được.
+        zh_cjv: 抱歉，你的交易无法完成。
+        zh_cn: 抱歉，你的交易无法完成。
+        zh_tw: 對不起，您的交易無法完成。
+    Response.PurchasingLimitUnder13:
+      english_string: Sorry, your transaction cannot be completed as you have reached
+        a purchasing limit. Please try your transaction again in 24-72 hours. If unsuccessful,
+        you may need to wait up to 30 days to make a new purchase. Purchasing limits
+        cannot be changed or removed.
+      description: |-
+        Shown to user under 13 when hitting a limit check.
+        Created by esauer@roblox.com
+        Modified by esauer@roblox.com
+        Created by esauer@roblox.com
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: عذراً، لا يمكن إتمام المعاملة الخاصة بك حيث وصلت إلى حد الشراء. الرجاء
+          المحاولة مرة أخرى في 24-72 ساعة. إذا لم تنجح، قد تحتاج إلى الانتظار حتى
+          30 يوما للقيام بشراء جديد. لا يمكن تغيير حدود الشراء أو إزالته.
+        de_de: Deine Transaktion kann derzeit leider nicht durchgeführt werden, da
+          du ein Kauflimit erreicht hast. Bitte probiere die Transaktion erneut in
+          24 bis 72 Stunden. Sollte es dann immer noch nicht klappen, musst du eventuell
+          bis zu 30 Tage warten, bevor du einen weiteren Kauf durchführen kannst.
+          Kauflimits können nicht geändert oder entfernt werden.
+        es_es: Lo sentimos, tu transacción no se puede completar porque has alcanzado
+          el número límite de compras. Vuelve a intentarlo en 24-72 horas. Si no se
+          procesa, es posible que tengas que esperar hasta 30 días para realizar una
+          nueva compra. El número límite de compras no se puede cambiar o eliminar.
+        fr_fr: Nous sommes désolés mais tu ne peux pas compléter ta transaction car
+          tu as atteint la limite d'achat. Essaie de nouveau dans 24-72 heures. Si
+          cela n'aboutit pas, tu devras peut-être attendre 30 jours pour effectuer
+          un nouvel achat. Les limites d'achat ne peuvent être changées ou supprimées.
+        id_id: Maaf, transaksi kamu tidak dapat diselesaikan karena akun kamu telah
+          mencapai batas pembelian. Coba lagi dalam 24-72 jam. Jika masih tidak berhasil,
+          kamu mungkin perlu menunggu hingga 30 hari untuk melakukan pembelian baru.
+          Batas pembelian tidak dapat diubah atau dihilangkan.
+        it_it: Spiacenti, la tua transazione non può essere completata in quanto hai
+          raggiunto un limite di acquisto. Riprova la transazione in 24-72 ore. In
+          caso di insuccesso, potrebbe essere necessario attendere fino a 30 giorni
+          per effettuare un nuovo acquisto. I limiti di acquisto non possono essere
+          modificati o rimossi.
+        ja_jp: 申し訳ありませんが、購入上限に達したためご購入処理が完了できませんでした。24〜72時間以内にもう1度ご購入してみてください。もし、できない場合は、新規購入するためには、最長30日まで待つ必要があるかもしれません。購入限度は変更や削除はできません。
+        ko_kr: 구매 한도에 도달했기 때문에 본 거래를 완료할 수 없습니다. 24~72시간 후에 다시 시도하세요. 그때도 거래가 진행되지
+          않는다면 새로운 구매가 가능하기까지 최대 30일이 소요될 수 있습니다. 구매 한도는 변경 혹은 해제가 불가능합니다.
+        pl_pl: Nie można sfinalizować transakcji, ponieważ limit zakupów został przekroczony.
+          Spróbuj wykonać transakcję ponownie po upływie 24–72 godzin. Jeśli się nie
+          powiedzie, konieczne może być wstrzymanie się z dalszymi zakupami przez
+          okres do 30 dni. Limitów zakupów nie można zmienić ani usunąć.
+        pt_br: Sinto muito, mas não foi possível concluir a transação, pois você atingiu
+          um limite de compra. Tente realizar a transação novamente daqui a 24–72
+          horas. Se não conseguir, você pode ter que aguardar até 30 dias para efetuar
+          uma nova compra. Não é possível alterar nem remover limites de compra.
+        ru_ru: Транзакция не может быть завершена, так как достигнут лимит покупок.
+          Повтори попытку через 24–72 часа. В случае неудачи тебе может потребоваться
+          подождать до 30 дней, чтобы совершить новую покупку. Ограничения на покупки
+          нельзя изменить или снять.
+        th_th: ขออภัย ไม่สามารถทำธุรกรรมของคุณให้เสร็จสมบูรณ์ได้เนื่องจากคุณมียอดใช้จ่ายเต็มวงเงินแล้ว
+          โปรดลองทำธุรกรรมของคุณอีกครั้งใน 24-72 ชั่วโมง หากยังไม่สามารถทำธุรกรรมได้
+          คุณอาจต้องรอสูงสุดถึง 30 วันเพื่อทำการซื้อใหม่ ไม่สามารถเปลี่ยนหรือลบวงเงินได้
+        tr_tr: Üzgünüz, satın alım sınırına ulaştığın için işlemin tamamlanamıyor.
+          Lütfen işlemini 24 - 72 saat içinde tekrar dene. İşleminin tamamlanması
+          başarısız olursa yeni bir satın alım işlemi gerçekleştirmek için bir sonraki
+          aya kadar beklemen gerekebilir. Satın alım sınırları değiştirilemez ve kaldırılamaz.
+        vi_vn: Rất tiếc, giao dịch của bạn không thể hoàn thành được vì bạn đã đạt
+          giới hạn mua. Vui lòng thử giao dịch lại sau 24-72 giờ nữa. Nếu vẫn không
+          giao dịch được, bạn có thể sẽ phải chờ đến 30 ngày để thực hiện giao dịch
+          mới. Giới hạn mua không thể bị thay đổi hoặc loại bỏ.
+        zh_cjv: 抱歉，你目前已经到达购买上限，无法完成本次交易。请在 24 至 72 小时后再次尝试交易。若无法成功交易，你在能够再次购买之前可能需要等待最长
+          30 天。购买上限无法进行更改或移除。
+        zh_cn: 抱歉，你目前已经到达购买上限，无法完成本次交易。请在 24 至 72 小时后再次尝试交易。若无法成功交易，你在能够再次购买之前可能需要等待最长
+          30 天。购买上限无法进行更改或移除。
+        zh_tw: 對不起，您已到達購買上限，無法完成交易。請在 24 到 72 小時候重新嘗試交易。若仍然無法完成交易，您最長可能要到 30 天候才可以進行新的購買。購買上限無法變更或移除。
+    Response.UserCancelled:
+      english_string: You have cancelled this purchase.
+      description: |-
+        Created by <Unknown>
+        Modified by <TranslationMigrator>
+        Created by <Unknown>
+        Modified by bdeng@roblox.com
+      translations:
+        ar_001: لقد قمت بإلغاء هذا الشراء.
+        de_de: Du hast diesen Kauf storniert.
+        es_es: Cancelaste esta transacción.
+        fr_fr: Tu as annulé cet achat.
+        id_id: Kamu telah membatalkan pembelian ini.
+        it_it: Hai annullato questo acquisto.
+        ja_jp: この購入をキャンセルしました。
+        ko_kr: 이 구매를 취소했어요.
+        pl_pl: Ten zakup został anulowany.
+        pt_br: Você cancelou esta compra.
+        ru_ru: Покупка отменена.
+        th_th: คุณได้ยกเลิกการซื้อนี้แล้ว
+        tr_tr: Bu satın alım işlemini iptal ettin.
+        vi_vn: Bạn đã hủy bỏ giao dịch mua này.
+        zh_cjv: 你已取消此购买。
+        zh_cn: 你已取消此购买。
+        zh_tw: 您已取消購買。

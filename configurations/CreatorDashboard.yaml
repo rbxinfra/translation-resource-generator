@@ -1,0 +1,15 @@
+name: CreatorDashboard
+resources:
+  ScopeSystem:
+    Label.Subscription:
+      english_string: Subscription
+      description: 'Subscription identifying user subscribing to a particular subscription
+        product. '
+      translations:
+        de_de: Abonnement
+        es_es: Suscripción
+        fr_fr: Abonnement
+        ja_jp: 定期購入
+        ko_kr: 구독
+        pt_br: Assinatura
+        zh_cjv: ""
