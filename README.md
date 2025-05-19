@@ -1,6 +1,6 @@
 # Translation Resource Generator
 
-Command line tool for parsing translations files and converting them into C# files used by [Roblox.TranslationResources](https://github.com/rbxinfra/rbx-libraries/tree/master/src/translation-resources/translation-resources)
+Command line tool for parsing translations files and converting them into C# files used by [Roblox.TranslationResources](https://github.com/rbxinfra/translation-resources)
 
 ## Building
 
@@ -26,14 +26,19 @@ Ensure you have [Go 1.20.3+](https://go.dev/dl/)
 ```txt
 Usage: translation-resource-generator
 Build Mode: debug
-Commit:
+Commit:  
         [-h|--help]
+        [--config-to-resx] [--from-resx]
         [--configuration-directory <directory>] [--output-directory <directory>]
         [--recurse]
         [--namespace <namespace>]
 
+  -config-to-resx
+        Convert config files to ResX files
   -configuration-directory string
         The directory where the configuration files are located.
+  -from-resx
+        Is configuration coming from ResX files?
   -help
         Print usage.
   -namespace string

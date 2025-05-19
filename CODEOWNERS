@@ -1,1 +1,4 @@
-* @rbxinfra/platform-tools
+/.github/ @rbxinfra/platform-ci
+CODEOWNERS @rbxinfra/platform-ci
+
+/src/ @rbxinfra/internationalization-team

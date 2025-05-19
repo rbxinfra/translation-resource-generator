@@ -27,7 +27,7 @@ var (
 
 const FlagsUsageString string = `
 	[-h|--help]
-	[--config-to-resx]
+	[--config-to-resx] [--from-resx]
 	[--configuration-directory <directory>] [--output-directory <directory>]
 	[--recurse]
 	[--namespace <namespace>]`
