@@ -122,7 +122,7 @@ func parseResXFiles(dirName, resourceNamespace string) (*models.Configuration, e
 
 		if englishResxFileRegex.MatchString(path.Base(fileName)) {
 			resourceName := strings.Split(path.Base(fileName), ".")[0]
-			
+
 			englishFile, err := os.Open(fileName)
 			if err != nil {
 				return err
@@ -134,7 +134,9 @@ func parseResXFiles(dirName, resourceNamespace string) (*models.Configuration, e
 				return err
 			}
 
-			if resxEntries["en_us"] == nil { resxEntries["en_us"] = make(map[string][]*models.ResxData) }
+			if resxEntries["en_us"] == nil {
+				resxEntries["en_us"] = make(map[string][]*models.ResxData)
+			}
 
 			resxEntries["en_us"][resourceName] = englishRoot.Data
 
@@ -157,8 +159,9 @@ func parseResXFiles(dirName, resourceNamespace string) (*models.Configuration, e
 					return err
 				}
 
-				
-				if resxEntries[locale] == nil { resxEntries[locale] = make(map[string][]*models.ResxData) }
+				if resxEntries[locale] == nil {
+					resxEntries[locale] = make(map[string][]*models.ResxData)
+				}
 				resxEntries[locale][resourceName] = localeRoot.Data
 
 				localeResourceFile.Close()
@@ -173,7 +176,7 @@ func parseResXFiles(dirName, resourceNamespace string) (*models.Configuration, e
 	}
 
 	configuration := &models.Configuration{
-		Name: resourceNamespace,
+		Name:      resourceNamespace,
 		Resources: make(models.TranslationResourcesMap),
 	}
 
@@ -287,6 +290,8 @@ func Parse() ([]*models.Configuration, error) {
 
 	var configurations []*models.Configuration
 
+	processedNamespaces := make(map[string]bool)
+
 	err := filepath.WalkDir(*flags.ConfigurationDirectoryFlag, func(fileName string, fileInfo fs.DirEntry, err error) error {
 		if err != nil {
 			return err
@@ -304,11 +309,19 @@ func Parse() ([]*models.Configuration, error) {
 				return err
 			}
 		} else {
-			if !strings.HasSuffix(fileName, ".resx") { return nil }
-			if !englishResxFileRegex.MatchString(path.Base(fileName)) { return nil }
+			if !strings.HasSuffix(fileName, ".resx") {
+				return nil
+			}
+			if !englishResxFileRegex.MatchString(path.Base(fileName)) {
+				return nil
+			}
 
 			dir := path.Dir(fileName)
 			resourceNamespace := path.Base(dir)
+
+			if processedNamespaces[resourceNamespace] {
+				return nil
+			}
 
 			fmt.Printf("Parsing from ResX files %s, namespace = %s\n", fileName, resourceNamespace)
 
@@ -316,6 +329,8 @@ func Parse() ([]*models.Configuration, error) {
 			if err != nil {
 				return err
 			}
+
+			processedNamespaces[resourceNamespace] = true
 		}
 
 		if configuration != nil {
