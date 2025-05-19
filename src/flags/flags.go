@@ -6,6 +6,12 @@ var (
 	// HelpFlag prints the usage.
 	HelpFlag = flag.Bool("help", false, "Print usage.")
 
+	// ConfigToResX converts config files to ResX files
+	ConfigToResX = flag.Bool("config-to-resx", false, "Convert config files to ResX files")
+
+	// FromResX determines if config is coming from ResX files
+	FromResX = flag.Bool("from-resx", false, "Is configuration coming from ResX files?")
+
 	// ConfigurationDirectoryFlag is the directory where the configuration files are located.
 	ConfigurationDirectoryFlag = flag.String("configuration-directory", "", "The directory where the configuration files are located.")
 
@@ -21,6 +27,7 @@ var (
 
 const FlagsUsageString string = `
 	[-h|--help]
+	[--config-to-resx]
 	[--configuration-directory <directory>] [--output-directory <directory>]
 	[--recurse]
 	[--namespace <namespace>]`

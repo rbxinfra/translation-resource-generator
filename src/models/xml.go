@@ -37,7 +37,7 @@ func (m StringMap) MarshalXML(e *xml.Encoder, start xml.StartElement) error {
 	return nil
 }
 
-type StringsMap map[string]TranslationResources
+type StringsMap map[string]*TranslationResources
 
 type stringsMapEntry struct {
 	XMLName xml.Name
@@ -58,7 +58,7 @@ func (m *StringsMap) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error 
 			}
 			return err
 		}
-		(*m)[e.XMLName.Local] = TranslationResources{
+		(*m)[e.XMLName.Local] = &TranslationResources{
 			EnglishString: e.EnglishString,
 			Translations:  e.Translations,
 		}

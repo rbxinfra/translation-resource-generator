@@ -1,0 +1,3 @@
+{{ template "resx_header" -}}
+{{ .Data }}
+</root>

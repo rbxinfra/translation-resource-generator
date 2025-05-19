@@ -34,21 +34,61 @@ func main() {
 		return
 	}
 
-	config, err := configuration.Parse()
+	configPairs, err := configuration.Parse()
 	if err != nil {
 		panic(err)
 	}
 
+	if *flags.ConfigToResX {
+		for _, config := range configPairs {
+			outputDirectory := *flags.OutputDirectoryFlag
+
+			if err := os.MkdirAll(outputDirectory, os.ModePerm); err != nil {
+				panic(err)
+			}
+
+			files, err := templates.ParseForResxFile(config)
+			if err != nil {
+				panic(err)
+			}
+
+			for fileName, fileContents := range files {
+				fileName = path.Join(outputDirectory, fileName)
+				pathName := path.Dir(fileName)
+
+				if err := os.MkdirAll(pathName, os.ModePerm); err != nil {
+					panic(err)
+				}
+
+				file, err := os.Create(fileName)
+				if err != nil {
+					panic(err)
+				}
+
+				defer file.Close()
+
+				_, err = file.WriteString(fileContents)
+				if err != nil {
+					panic(err)
+				}
+
+				fmt.Printf("Wrote file: %s\n", fileName)
+			}
+		}
+
+		return
+	}
+
 	groups := make([]string, 0)
 
-	for _, pair := range config {
+	for _, config := range configPairs {
 		outputDirectory := *flags.OutputDirectoryFlag
 
 		if err := os.MkdirAll(outputDirectory, os.ModePerm); err != nil {
 			panic(err)
 		}
 
-		files, err := templates.ParseForConfiguration(applicationName, commitSha, pair.Configuration)
+		files, err := templates.ParseForConfiguration(applicationName, commitSha, config)
 		if err != nil {
 			panic(err)
 		}
@@ -76,7 +116,7 @@ func main() {
 			fmt.Printf("Wrote file: %s\n", fileName)
 		}
 
-		groups = append(groups, pair.Configuration.Name)
+		groups = append(groups, config.Name)
 	}
 
 	files, err := templates.ParseForMasterResources(applicationName, commitSha, groups)

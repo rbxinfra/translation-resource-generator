@@ -1,6 +1,7 @@
 package templates
 
 import (
+	"encoding/xml"
 	"fmt"
 	"path"
 	"regexp"
@@ -9,6 +10,7 @@ import (
 
 	"github.com/nikita-petko/translation-resource-generator/models"
 	masterresources "github.com/nikita-petko/translation-resource-generator/templates/master_resources"
+	"github.com/nikita-petko/translation-resource-generator/templates/resx"
 	translationnamespacegroup "github.com/nikita-petko/translation-resource-generator/templates/translation_namespace_group"
 	translationresource "github.com/nikita-petko/translation-resource-generator/templates/translation_resource"
 
@@ -101,6 +103,37 @@ func applyCustomFunctions(tmpl *template.Template) {
 	}
 
 	tmpl.Funcs(funcMap)
+}
+
+func executeTemplateForResxFile(data []*models.ResxData) (string, error) {
+	tpl := template.New("resx_file")
+
+	applyCustomFunctions(tpl)
+
+	var err error
+
+	if tpl, err = tpl.Parse(resx.ResxFileHeaderTemplate); err != nil {
+		return "", err
+	}
+	if tpl, err = tpl.Parse(resx.ResxFileTemplate); err != nil {
+		return "", err
+	}
+
+	model := &resx.ResxFileModel{}
+
+	out, err := xml.MarshalIndent(data, "  ", "  ")
+	if err != nil {
+		return "", err
+	}
+
+	model.Data = string(out)
+
+	var textWriter strings.Builder
+	if err = tpl.Execute(&textWriter, model); err != nil {
+		return "", err
+	}
+
+	return textWriter.String(), nil
 }
 
 func executeTemplateForTranslationNamespaceGroupInterface(model *translationnamespacegroup.TranslationNamespaceGroup) (string, error) {
@@ -253,6 +286,74 @@ func executeTemplateForMasterResourcesImplementation(model *masterresources.Mast
 	}
 
 	return textWriter.String(), nil
+}
+
+var locales []string = []string{
+	"en_us",
+	"ar_001",
+	"de_de",
+	"es_es",
+	"fr_fr",
+	"id_id",
+	"it_it",
+	"ja_jp",
+	"ko_kr",
+	"pl_pl",
+	"pt_br",
+	"ru_ru",
+	"th_th",
+	"tr_tr",
+	"vi_vn",
+	"zh_cjv",
+	"zh_cn",
+	"zh_tw",
+}
+
+// ParseForResxFile parses the templats for a ResX file
+func ParseForResxFile(config *models.Configuration) (map[string]string, error) {
+	files := make(map[string]string)
+
+	fmt.Printf("Building ResX files for %s\n", config.Name)
+
+	for resName, resMap := range config.Resources {
+		for _, locale := range locales {
+			resxEntries := []*models.ResxData{}
+
+			for resKey, res := range resMap {
+				resValue := res.EnglishString
+				if locale != locales[0] {
+					newValue, ok := res.Translations[locale]
+					if !ok {
+						continue
+					}
+
+					resValue = newValue
+				}
+
+				resxEntry := &models.ResxData{NameAttr: resKey, XmlSpaceAttr: "preserve"}
+
+				resxEntry.Value = resValue
+				resxEntry.Comment = res.Description
+
+				resxEntries = append(resxEntries, resxEntry)
+			}
+
+			resxFile, err := executeTemplateForResxFile(resxEntries)
+			if err != nil {
+				return nil, err
+			}
+
+			fileName := resName
+			if locale != locales[0] {
+				fileName += fmt.Sprintf(".%s", locale)
+			}
+
+			resxFilePath := path.Join(config.Name, fmt.Sprintf("%s.resx", fileName))
+			files[resxFilePath] = resxFile
+		}
+	}
+
+	return files, nil
 }
 
 // ParseForMasterResources parses the templates for the master resources.

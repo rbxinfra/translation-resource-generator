@@ -309,7 +309,7 @@ func BuildTranslatedModel(toolName, version, name, locale string, config *models
 	return &model, nil
 }
 
-func determineLocales(resource map[string]models.TranslationResources) []string {
+func determineLocales(resource map[string]*models.TranslationResources) []string {
 	// Go through each string, compile together a list of their translations.
 	// Then, go through each translation, and if it's not in the list, add it.
 	// This will give us a list of all the locales.
