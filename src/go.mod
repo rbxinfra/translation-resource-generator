@@ -1,6 +1,6 @@
 module github.com/nikita-petko/translation-resource-generator
 
-go 1.23.0
+go 1.23
 
 require (
 	github.com/pelletier/go-toml v1.9.5
